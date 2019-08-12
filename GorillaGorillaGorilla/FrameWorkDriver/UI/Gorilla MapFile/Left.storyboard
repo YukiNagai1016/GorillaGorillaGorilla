@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14113" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="Dg6-93-feT">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14088"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Left View Controller-->
+        <scene sceneID="EgH-EW-aRw">
+            <objects>
+                <viewController storyboardIdentifier="Left" id="Dg6-93-feT" customClass="LeftViewController" customModule="GorillaGorillaGorilla" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" tag="200" contentMode="scaleToFill" id="b7l-7J-bbh">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="NKM-49-U2Q">
+                                <rect key="frame" x="0.0" y="0.0" width="316" height="667"/>
+                                <subviews>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="NuA-jd-zMa">
+                                        <rect key="frame" x="8" y="268" width="288" height="172"/>
+                                        <constraints>
+                                            <constraint firstAttribute="width" constant="288" id="0IW-HU-SuS"/>
+                                            <constraint firstAttribute="height" constant="172" id="6fX-aU-orx"/>
+                                        </constraints>
+                                        <string key="text">きっかけは大学一年の頃にメルボルンに留学していた頃に訪れたメルボルン動物園である。物心ついてからリアルゴリラを見たのはこの時が初めてで、迫力ある風貌、えげつなく風格のある後頭部、語る背中等、圧倒的存在感に心を奪われ、約2時間ほど没頭して見とれていた。それから、ゴリラに対する関心や好意が急激に高まり、今に至る。</string>
+                                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="nagaiyuki.png" translatesAutoresizingMaskIntoConstraints="NO" id="ZcU-O8-NYT">
+                                        <rect key="frame" x="8" y="122" width="110" height="110"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="110" id="6ph-Fi-d9b"/>
+                                            <constraint firstAttribute="width" constant="110" id="re3-T9-RjD"/>
+                                        </constraints>
+                                    </imageView>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="きっかけは人それぞれですが、みなさんも思い思いのきっかけでゴリラにハマる人が増えることを願っています！" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="enh-Sy-aqF">
+                                        <rect key="frame" x="8" y="455" width="288" height="77"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="77" id="p0a-Od-PAV"/>
+                                            <constraint firstAttribute="width" constant="288" id="pEL-x7-wQO"/>
+                                        </constraints>
+                                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="ゆーきながいがゴリラに　 　はまったきっかけとは？" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="2XN-UX-bvs">
+                                        <rect key="frame" x="142" y="171" width="154" height="48"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="48" id="5ZI-jW-o8O"/>
+                                            <constraint firstAttribute="width" constant="154" id="LZg-xa-SgP"/>
+                                        </constraints>
+                                        <fontDescription key="fontDescription" type="boldSystem" pointSize="13"/>
+                                        <color key="textColor" red="1" green="0.84761122619999996" blue="0.17347002859999999" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="GorillaGorillaGorillaの開発者" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="7dX-pw-wuX">
+                                        <rect key="frame" x="129" y="147" width="180" height="16"/>
+                                        <constraints>
+                                            <constraint firstAttribute="width" constant="180" id="Bmb-kM-kQl"/>
+                                            <constraint firstAttribute="height" constant="16" id="EAN-C7-28V"/>
+                                        </constraints>
+                                        <fontDescription key="fontDescription" type="boldSystem" pointSize="13"/>
+                                        <color key="textColor" red="1" green="0.84761122619999996" blue="0.17347002859999999" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                </subviews>
+                                <color key="backgroundColor" red="0.0" green="0.74383503399999995" blue="0.72130102039999999" alpha="1" colorSpace="calibratedRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="trailing" secondItem="enh-Sy-aqF" secondAttribute="trailing" constant="20" id="9Cp-YF-jqQ"/>
+                                    <constraint firstItem="7dX-pw-wuX" firstAttribute="leading" secondItem="ZcU-O8-NYT" secondAttribute="trailing" constant="11" id="E70-B3-lLR"/>
+                                    <constraint firstAttribute="width" constant="316" id="IZZ-DC-qsa"/>
+                                    <constraint firstItem="ZcU-O8-NYT" firstAttribute="top" secondItem="NKM-49-U2Q" secondAttribute="top" constant="122" id="N4N-Lv-COD"/>
+                                    <constraint firstItem="7dX-pw-wuX" firstAttribute="top" secondItem="NKM-49-U2Q" secondAttribute="top" constant="147" id="Oc3-Hj-oz3"/>
+                                    <constraint firstAttribute="trailing" secondItem="7dX-pw-wuX" secondAttribute="trailing" constant="7" id="Pu6-9Q-DCD"/>
+                                    <constraint firstItem="enh-Sy-aqF" firstAttribute="top" secondItem="NuA-jd-zMa" secondAttribute="bottom" constant="15" id="Tb3-Od-6pf"/>
+                                    <constraint firstAttribute="trailing" secondItem="2XN-UX-bvs" secondAttribute="trailing" constant="20" id="a0x-E4-LzW"/>
+                                    <constraint firstItem="ZcU-O8-NYT" firstAttribute="leading" secondItem="NKM-49-U2Q" secondAttribute="leading" constant="8" id="fqq-0t-lMK"/>
+                                    <constraint firstItem="enh-Sy-aqF" firstAttribute="leading" secondItem="NKM-49-U2Q" secondAttribute="leading" constant="8" id="idr-7w-auZ"/>
+                                    <constraint firstItem="NuA-jd-zMa" firstAttribute="leading" secondItem="NKM-49-U2Q" secondAttribute="leading" constant="8" id="iyZ-pX-sIs"/>
+                                    <constraint firstItem="NuA-jd-zMa" firstAttribute="top" secondItem="ZcU-O8-NYT" secondAttribute="bottom" constant="36" id="nYP-bS-crx"/>
+                                    <constraint firstItem="2XN-UX-bvs" firstAttribute="leading" secondItem="ZcU-O8-NYT" secondAttribute="trailing" constant="24" id="tCo-4G-15h"/>
+                                    <constraint firstAttribute="trailing" secondItem="NuA-jd-zMa" secondAttribute="trailing" constant="20" id="vmy-23-C4R"/>
+                                    <constraint firstItem="2XN-UX-bvs" firstAttribute="top" secondItem="7dX-pw-wuX" secondAttribute="bottom" constant="8" id="zh4-4U-GKT"/>
+                                </constraints>
+                            </view>
+                        </subviews>
+                        <constraints>
+                            <constraint firstItem="NKM-49-U2Q" firstAttribute="leading" secondItem="RJB-zX-4ER" secondAttribute="leading" id="AOU-A3-eEq"/>
+                            <constraint firstItem="NKM-49-U2Q" firstAttribute="top" secondItem="b7l-7J-bbh" secondAttribute="top" id="bCS-Rl-dq9"/>
+                            <constraint firstItem="NKM-49-U2Q" firstAttribute="bottom" secondItem="RJB-zX-4ER" secondAttribute="bottom" id="ocK-AA-Gvq"/>
+                            <constraint firstItem="RJB-zX-4ER" firstAttribute="trailing" secondItem="NKM-49-U2Q" secondAttribute="trailing" constant="59" id="rdj-Bl-AKP"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="RJB-zX-4ER"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="DCF-7R-Tf9" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="56.799999999999997" y="160.56971514242881"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="nagaiyuki.png" width="512" height="512"/>
+    </resources>
+</document>

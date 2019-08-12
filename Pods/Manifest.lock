@@ -1,0 +1,54 @@
+PODS:
+  - Kingfisher (5.3.1)
+  - NYXImagesKit (2.3)
+  - RAMAnimatedTabBarController (5.0.0)
+  - SDWebImage (5.0.1):
+    - SDWebImage/Core (= 5.0.1)
+  - SDWebImage/Core (5.0.1)
+  - SnapKit (4.2.0)
+  - SVProgressHUD (2.2.5)
+  - SwiftyGif (5.0.0)
+  - "UITextView+Placeholder (1.2.1)"
+  - WBSegmentControl (0.2.3)
+  - youtube-ios-player-helper (0.1.6)
+
+DEPENDENCIES:
+  - Kingfisher
+  - NYXImagesKit
+  - RAMAnimatedTabBarController
+  - SDWebImage
+  - SnapKit
+  - SVProgressHUD
+  - SwiftyGif
+  - "UITextView+Placeholder"
+  - WBSegmentControl
+  - youtube-ios-player-helper
+
+SPEC REPOS:
+  https://github.com/CocoaPods/Specs.git:
+    - Kingfisher
+    - NYXImagesKit
+    - RAMAnimatedTabBarController
+    - SDWebImage
+    - SnapKit
+    - SVProgressHUD
+    - SwiftyGif
+    - "UITextView+Placeholder"
+    - WBSegmentControl
+    - youtube-ios-player-helper
+
+SPEC CHECKSUMS:
+  Kingfisher: d9e7e0b209b59b8f9873aa2f37654e81a7beea51
+  NYXImagesKit: 8163e3335a40eaa173ca5bbbf81fafb57d3947eb
+  RAMAnimatedTabBarController: 6736db7bec2ec74d64059ee9cb40cb9bd281338e
+  SDWebImage: 27dd2c9ea07a2252f94557c9fbb6105ee94b74c9
+  SnapKit: fe8a619752f3f27075cc9a90244d75c6c3f27e2a
+  SVProgressHUD: 1428aafac632c1f86f62aa4243ec12008d7a51d6
+  SwiftyGif: 67490485c3b1fa19013d9613fab31de4629450fb
+  "UITextView+Placeholder": 0c3efd97f37ea64bde7f34cc6e90fe02e87b3909
+  WBSegmentControl: c66bb255598413eea8306401d402ae67974267b2
+  youtube-ios-player-helper: 21ab92db027c7ff86cb17a3843a3f6eafc8158d2
+
+PODFILE CHECKSUM: 8d58dd95623bff031a97b910f7b6b686295b1470
+
+COCOAPODS: 1.5.0

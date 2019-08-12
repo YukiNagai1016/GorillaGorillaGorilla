@@ -7,15 +7,347 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		29B94E241E33033F41376938 /* Pods_GorillaGorillaGorilla.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2178F37BB18B80C7563786B4 /* Pods_GorillaGorillaGorilla.framework */; };
 		EF5315F523003A5900F3680C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF5315F423003A5900F3680C /* AppDelegate.swift */; };
 		EF5315F723003A5A00F3680C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF5315F623003A5A00F3680C /* ViewController.swift */; };
 		EF5315FA23003A5A00F3680C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EF5315F823003A5A00F3680C /* Main.storyboard */; };
 		EF5315FD23003A5A00F3680C /* GorillaGorillaGorilla.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = EF5315FB23003A5A00F3680C /* GorillaGorillaGorilla.xcdatamodeld */; };
 		EF5315FF23003A5B00F3680C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EF5315FE23003A5B00F3680C /* Assets.xcassets */; };
 		EF53160223003A5B00F3680C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EF53160023003A5B00F3680C /* LaunchScreen.storyboard */; };
+		EF53186823003D2900F3680C /* なきむしポルカFREE.otf in Resources */ = {isa = PBXBuildFile; fileRef = EF53186723003D2900F3680C /* なきむしポルカFREE.otf */; };
+		EF53199923003D5400F3680C /* maru.png in Resources */ = {isa = PBXBuildFile; fileRef = EF53186B23003D5300F3680C /* maru.png */; };
+		EF53199E23003D5400F3680C /* banana1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = EF53187123003D5300F3680C /* banana1.jpg */; };
+		EF53199F23003D5400F3680C /* banana2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = EF53187223003D5300F3680C /* banana2.jpg */; };
+		EF5319A023003D5400F3680C /* cancel.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = EF53187323003D5300F3680C /* cancel.jpeg */; };
+		EF5319A123003D5400F3680C /* bananaButton.png in Resources */ = {isa = PBXBuildFile; fileRef = EF53187423003D5300F3680C /* bananaButton.png */; };
+		EF5319A223003D5400F3680C /* go.jpg in Resources */ = {isa = PBXBuildFile; fileRef = EF53187523003D5300F3680C /* go.jpg */; };
+		EF5319A523003D5400F3680C /* back.jpg in Resources */ = {isa = PBXBuildFile; fileRef = EF53187823003D5300F3680C /* back.jpg */; };
+		EF5319A923003D5400F3680C /* backgroundImage1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = EF53187D23003D5300F3680C /* backgroundImage1.jpg */; };
+		EF5319AA23003D5400F3680C /* backgroundImage2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = EF53187E23003D5300F3680C /* backgroundImage2.jpg */; };
+		EF5319AB23003D5400F3680C /* backgroundImage3.jpg in Resources */ = {isa = PBXBuildFile; fileRef = EF53187F23003D5300F3680C /* backgroundImage3.jpg */; };
+		EF5319AC23003D5400F3680C /* backgroundImage4.jpg in Resources */ = {isa = PBXBuildFile; fileRef = EF53188023003D5300F3680C /* backgroundImage4.jpg */; };
+		EF5319AD23003D5400F3680C /* JapanMapImage.jpg in Resources */ = {isa = PBXBuildFile; fileRef = EF53188123003D5300F3680C /* JapanMapImage.jpg */; };
+		EF5319AE23003D5400F3680C /* backgroundImage5.jpg in Resources */ = {isa = PBXBuildFile; fileRef = EF53188223003D5300F3680C /* backgroundImage5.jpg */; };
+		EF5319AF23003D5400F3680C /* backgroundImage6.jpg in Resources */ = {isa = PBXBuildFile; fileRef = EF53188323003D5300F3680C /* backgroundImage6.jpg */; };
+		EF5319B023003D5400F3680C /* backgroundImage7.jpg in Resources */ = {isa = PBXBuildFile; fileRef = EF53188423003D5300F3680C /* backgroundImage7.jpg */; };
+		EF5319B123003D5400F3680C /* batsu.png in Resources */ = {isa = PBXBuildFile; fileRef = EF53188523003D5300F3680C /* batsu.png */; };
+		EF5319B223003D5400F3680C /* nagaiyuki.png in Resources */ = {isa = PBXBuildFile; fileRef = EF53188623003D5300F3680C /* nagaiyuki.png */; };
+		EF5319B323003D5400F3680C /* placeholder.png in Resources */ = {isa = PBXBuildFile; fileRef = EF53188823003D5300F3680C /* placeholder.png */; };
+		EF5319B423003D5400F3680C /* LoginViewImage.png in Resources */ = {isa = PBXBuildFile; fileRef = EF53188923003D5300F3680C /* LoginViewImage.png */; };
+		EF5319B523003D5400F3680C /* placeholderImage.png in Resources */ = {isa = PBXBuildFile; fileRef = EF53188A23003D5300F3680C /* placeholderImage.png */; };
+		EF5319B623003D5400F3680C /* chibashiZooImage.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = EF53188C23003D5300F3680C /* chibashiZooImage.jpeg */; };
+		EF5319B723003D5400F3680C /* higasiyamaZooImage.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = EF53188D23003D5300F3680C /* higasiyamaZooImage.jpeg */; };
+		EF5319B823003D5400F3680C /* yagiyamaZooImage.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = EF53188E23003D5300F3680C /* yagiyamaZooImage.jpeg */; };
+		EF5319B923003D5400F3680C /* kyotoZooImage.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = EF53188F23003D5300F3680C /* kyotoZooImage.jpeg */; };
+		EF5319BA23003D5400F3680C /* hamamatsuZooImage.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = EF53189023003D5300F3680C /* hamamatsuZooImage.jpeg */; };
+		EF5319BB23003D5400F3680C /* japanMonkeyCenterImage.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = EF53189123003D5300F3680C /* japanMonkeyCenterImage.jpeg */; };
+		EF5319BC23003D5400F3680C /* uenoZooImage.jpg in Resources */ = {isa = PBXBuildFile; fileRef = EF53189223003D5300F3680C /* uenoZooImage.jpg */; };
+		EF5319BD23003D5400F3680C /* sideMenu.gif in Resources */ = {isa = PBXBuildFile; fileRef = EF53189323003D5300F3680C /* sideMenu.gif */; };
+		EF5319BE23003D5400F3680C /* news.png in Resources */ = {isa = PBXBuildFile; fileRef = EF53189523003D5300F3680C /* news.png */; };
+		EF5319BF23003D5400F3680C /* hightlightList.png in Resources */ = {isa = PBXBuildFile; fileRef = EF53189623003D5300F3680C /* hightlightList.png */; };
+		EF5319C023003D5400F3680C /* knowledge.png in Resources */ = {isa = PBXBuildFile; fileRef = EF53189723003D5300F3680C /* knowledge.png */; };
+		EF5319C123003D5400F3680C /* tabQuiz.png in Resources */ = {isa = PBXBuildFile; fileRef = EF53189823003D5300F3680C /* tabQuiz.png */; };
+		EF5319C223003D5400F3680C /* Map.png in Resources */ = {isa = PBXBuildFile; fileRef = EF53189923003D5300F3680C /* Map.png */; };
+		EF5319C323003D5400F3680C /* tabMemo.png in Resources */ = {isa = PBXBuildFile; fileRef = EF53189A23003D5300F3680C /* tabMemo.png */; };
+		EF5319C423003D5400F3680C /* tabMap.png in Resources */ = {isa = PBXBuildFile; fileRef = EF53189B23003D5300F3680C /* tabMap.png */; };
+		EF5319C523003D5400F3680C /* hightlightknowledge.png in Resources */ = {isa = PBXBuildFile; fileRef = EF53189C23003D5300F3680C /* hightlightknowledge.png */; };
+		EF5319C623003D5400F3680C /* hightlightNews.png in Resources */ = {isa = PBXBuildFile; fileRef = EF53189D23003D5300F3680C /* hightlightNews.png */; };
+		EF5319C723003D5400F3680C /* list.png in Resources */ = {isa = PBXBuildFile; fileRef = EF53189E23003D5300F3680C /* list.png */; };
+		EF5319C823003D5400F3680C /* hightlightQuiz.png in Resources */ = {isa = PBXBuildFile; fileRef = EF53189F23003D5300F3680C /* hightlightQuiz.png */; };
+		EF5319C923003D5400F3680C /* hightlightMap.png in Resources */ = {isa = PBXBuildFile; fileRef = EF5318A023003D5300F3680C /* hightlightMap.png */; };
+		EF5319CA23003D5400F3680C /* tabList.png in Resources */ = {isa = PBXBuildFile; fileRef = EF5318A123003D5300F3680C /* tabList.png */; };
+		EF5319CB23003D5400F3680C /* tabKnowledge.png in Resources */ = {isa = PBXBuildFile; fileRef = EF5318A223003D5300F3680C /* tabKnowledge.png */; };
+		EF5319CC23003D5400F3680C /* Quiz.png in Resources */ = {isa = PBXBuildFile; fileRef = EF5318A323003D5300F3680C /* Quiz.png */; };
+		EF5319CD23003D5400F3680C /* whiteGorilla.jpg in Resources */ = {isa = PBXBuildFile; fileRef = EF5318A623003D5300F3680C /* whiteGorilla.jpg */; };
+		EF5319CE23003D5400F3680C /* whiteGorilla.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = EF5318A723003D5300F3680C /* whiteGorilla.jpeg */; };
+		EF5319CF23003D5400F3680C /* gorilla-dribbble.gif in Resources */ = {isa = PBXBuildFile; fileRef = EF5318A923003D5300F3680C /* gorilla-dribbble.gif */; };
+		EF5319D023003D5400F3680C /* dribbblegorillagif3.gif in Resources */ = {isa = PBXBuildFile; fileRef = EF5318AA23003D5300F3680C /* dribbblegorillagif3.gif */; };
+		EF5319D123003D5400F3680C /* dribbblegorillagif2.gif in Resources */ = {isa = PBXBuildFile; fileRef = EF5318AB23003D5300F3680C /* dribbblegorillagif2.gif */; };
+		EF5319D223003D5400F3680C /* dribbblegorillagif1.gif in Resources */ = {isa = PBXBuildFile; fileRef = EF5318AC23003D5300F3680C /* dribbblegorillagif1.gif */; };
+		EF5319D323003D5400F3680C /* 1_gorila_dribbble.gif in Resources */ = {isa = PBXBuildFile; fileRef = EF5318AD23003D5300F3680C /* 1_gorila_dribbble.gif */; };
+		EF5319D423003D5400F3680C /* ゲンタロウ.jpg in Resources */ = {isa = PBXBuildFile; fileRef = EF5318AF23003D5300F3680C /* ゲンタロウ.jpg */; };
+		EF5319D523003D5400F3680C /* アイ.jpg in Resources */ = {isa = PBXBuildFile; fileRef = EF5318B023003D5300F3680C /* アイ.jpg */; };
+		EF5319D623003D5400F3680C /* ケンタ.jpg in Resources */ = {isa = PBXBuildFile; fileRef = EF5318B123003D5300F3680C /* ケンタ.jpg */; };
+		EF5319D723003D5400F3680C /* ナナ.jpg in Resources */ = {isa = PBXBuildFile; fileRef = EF5318B223003D5300F3680C /* ナナ.jpg */; };
+		EF5319D823003D5400F3680C /* アニー.jpg in Resources */ = {isa = PBXBuildFile; fileRef = EF5318B323003D5300F3680C /* アニー.jpg */; };
+		EF5319D923003D5400F3680C /* ハオコ.jpg in Resources */ = {isa = PBXBuildFile; fileRef = EF5318B423003D5300F3680C /* ハオコ.jpg */; };
+		EF5319DA23003D5400F3680C /* タロウ.jpg in Resources */ = {isa = PBXBuildFile; fileRef = EF5318B523003D5300F3680C /* タロウ.jpg */; };
+		EF5319DB23003D5400F3680C /* ペイントコモモ.jpg in Resources */ = {isa = PBXBuildFile; fileRef = EF5318B723003D5300F3680C /* ペイントコモモ.jpg */; };
+		EF5319DC23003D5400F3680C /* ペイントモモカ.jpg in Resources */ = {isa = PBXBuildFile; fileRef = EF5318B823003D5300F3680C /* ペイントモモカ.jpg */; };
+		EF5319DD23003D5400F3680C /* ペイントハオコ.jpg in Resources */ = {isa = PBXBuildFile; fileRef = EF5318B923003D5300F3680C /* ペイントハオコ.jpg */; };
+		EF5319DE23003D5400F3680C /* ペイントナナ.jpg in Resources */ = {isa = PBXBuildFile; fileRef = EF5318BA23003D5300F3680C /* ペイントナナ.jpg */; };
+		EF5319DF23003D5400F3680C /* ペイントピーコ.jpg in Resources */ = {isa = PBXBuildFile; fileRef = EF5318BB23003D5300F3680C /* ペイントピーコ.jpg */; };
+		EF5319E023003D5400F3680C /* ペイントトト.jpg in Resources */ = {isa = PBXBuildFile; fileRef = EF5318BC23003D5300F3680C /* ペイントトト.jpg */; };
+		EF5319E123003D5400F3680C /* ペイントモモコ.jpg in Resources */ = {isa = PBXBuildFile; fileRef = EF5318BD23003D5300F3680C /* ペイントモモコ.jpg */; };
+		EF5319E223003D5400F3680C /* ペイントリキ.jpg in Resources */ = {isa = PBXBuildFile; fileRef = EF5318BE23003D5300F3680C /* ペイントリキ.jpg */; };
+		EF5319E323003D5400F3680C /* ピンドン.jpg in Resources */ = {isa = PBXBuildFile; fileRef = EF5318BF23003D5300F3680C /* ピンドン.jpg */; };
+		EF5319E423003D5400F3680C /* モモカ.jpg in Resources */ = {isa = PBXBuildFile; fileRef = EF5318C023003D5300F3680C /* モモカ.jpg */; };
+		EF5319E523003D5400F3680C /* ゲンキ.jpg in Resources */ = {isa = PBXBuildFile; fileRef = EF5318C123003D5300F3680C /* ゲンキ.jpg */; };
+		EF5319E623003D5400F3680C /* ネネ.jpg in Resources */ = {isa = PBXBuildFile; fileRef = EF5318C223003D5300F3680C /* ネネ.jpg */; };
+		EF5319E723003D5400F3680C /* コモモ.jpg in Resources */ = {isa = PBXBuildFile; fileRef = EF5318C323003D5300F3680C /* コモモ.jpg */; };
+		EF5319E823003D5400F3680C /* ローラ.jpg in Resources */ = {isa = PBXBuildFile; fileRef = EF5318C423003D5300F3680C /* ローラ.jpg */; };
+		EF5319E923003D5400F3680C /* ムサシ.jpg in Resources */ = {isa = PBXBuildFile; fileRef = EF5318C523003D5300F3680C /* ムサシ.jpg */; };
+		EF5319EA23003D5400F3680C /* ドン.jpg in Resources */ = {isa = PBXBuildFile; fileRef = EF5318C623003D5300F3680C /* ドン.jpg */; };
+		EF5319EB23003D5400F3680C /* ピーコ.jpg in Resources */ = {isa = PBXBuildFile; fileRef = EF5318C723003D5300F3680C /* ピーコ.jpg */; };
+		EF5319EC23003D5400F3680C /* リキ.jpg in Resources */ = {isa = PBXBuildFile; fileRef = EF5318C823003D5300F3680C /* リキ.jpg */; };
+		EF5319ED23003D5400F3680C /* モモコ.jpg in Resources */ = {isa = PBXBuildFile; fileRef = EF5318C923003D5300F3680C /* モモコ.jpg */; };
+		EF5319EE23003D5400F3680C /* シャバーニ.jpg in Resources */ = {isa = PBXBuildFile; fileRef = EF5318CA23003D5300F3680C /* シャバーニ.jpg */; };
+		EF5319EF23003D5400F3680C /* ショウ.jpg in Resources */ = {isa = PBXBuildFile; fileRef = EF5318CB23003D5300F3680C /* ショウ.jpg */; };
+		EF5319F023003D5400F3680C /* モンタ.jpg in Resources */ = {isa = PBXBuildFile; fileRef = EF5318CC23003D5300F3680C /* モンタ.jpg */; };
+		EF5319F123003D5400F3680C /* キヨマサ.jpg in Resources */ = {isa = PBXBuildFile; fileRef = EF5318CD23003D5300F3680C /* キヨマサ.jpg */; };
+		EF5319F223003D5400F3680C /* モモタロウ.jpg in Resources */ = {isa = PBXBuildFile; fileRef = EF5318CE23003D5300F3680C /* モモタロウ.jpg */; };
+		EF5319F323003D5400F3680C /* トト.jpg in Resources */ = {isa = PBXBuildFile; fileRef = EF5318CF23003D5300F3680C /* トト.jpg */; };
+		EF5319F423003D5400F3680C /* albumGorilla40.jpg in Resources */ = {isa = PBXBuildFile; fileRef = EF5318D123003D5300F3680C /* albumGorilla40.jpg */; };
+		EF5319F523003D5400F3680C /* albumGorilla54.jpg in Resources */ = {isa = PBXBuildFile; fileRef = EF5318D223003D5300F3680C /* albumGorilla54.jpg */; };
+		EF5319F623003D5400F3680C /* albumGorilla68.jpg in Resources */ = {isa = PBXBuildFile; fileRef = EF5318D323003D5300F3680C /* albumGorilla68.jpg */; };
+		EF5319F723003D5400F3680C /* albumGorilla69.jpg in Resources */ = {isa = PBXBuildFile; fileRef = EF5318D423003D5300F3680C /* albumGorilla69.jpg */; };
+		EF5319F823003D5400F3680C /* albumGorilla55.jpg in Resources */ = {isa = PBXBuildFile; fileRef = EF5318D523003D5300F3680C /* albumGorilla55.jpg */; };
+		EF5319F923003D5400F3680C /* albumGorilla41.jpg in Resources */ = {isa = PBXBuildFile; fileRef = EF5318D623003D5300F3680C /* albumGorilla41.jpg */; };
+		EF5319FA23003D5400F3680C /* albumGorilla57.jpg in Resources */ = {isa = PBXBuildFile; fileRef = EF5318D723003D5300F3680C /* albumGorilla57.jpg */; };
+		EF5319FB23003D5400F3680C /* albumGorilla43.jpg in Resources */ = {isa = PBXBuildFile; fileRef = EF5318D823003D5300F3680C /* albumGorilla43.jpg */; };
+		EF5319FC23003D5400F3680C /* albumGorilla42.jpg in Resources */ = {isa = PBXBuildFile; fileRef = EF5318D923003D5300F3680C /* albumGorilla42.jpg */; };
+		EF5319FD23003D5400F3680C /* albumGorilla56.jpg in Resources */ = {isa = PBXBuildFile; fileRef = EF5318DA23003D5300F3680C /* albumGorilla56.jpg */; };
+		EF5319FE23003D5400F3680C /* albumGorilla52.jpg in Resources */ = {isa = PBXBuildFile; fileRef = EF5318DB23003D5300F3680C /* albumGorilla52.jpg */; };
+		EF5319FF23003D5400F3680C /* albumGorilla46.jpg in Resources */ = {isa = PBXBuildFile; fileRef = EF5318DC23003D5300F3680C /* albumGorilla46.jpg */; };
+		EF531A0023003D5400F3680C /* albumGorilla47.jpg in Resources */ = {isa = PBXBuildFile; fileRef = EF5318DD23003D5300F3680C /* albumGorilla47.jpg */; };
+		EF531A0123003D5400F3680C /* albumGorilla53.jpg in Resources */ = {isa = PBXBuildFile; fileRef = EF5318DE23003D5300F3680C /* albumGorilla53.jpg */; };
+		EF531A0223003D5400F3680C /* albumGorilla45.jpg in Resources */ = {isa = PBXBuildFile; fileRef = EF5318DF23003D5300F3680C /* albumGorilla45.jpg */; };
+		EF531A0323003D5400F3680C /* albumGorilla51.jpg in Resources */ = {isa = PBXBuildFile; fileRef = EF5318E023003D5300F3680C /* albumGorilla51.jpg */; };
+		EF531A0423003D5400F3680C /* albumGorilla50.jpg in Resources */ = {isa = PBXBuildFile; fileRef = EF5318E123003D5300F3680C /* albumGorilla50.jpg */; };
+		EF531A0523003D5400F3680C /* albumGorilla44.jpg in Resources */ = {isa = PBXBuildFile; fileRef = EF5318E223003D5300F3680C /* albumGorilla44.jpg */; };
+		EF531A0623003D5400F3680C /* albumGorilla3.jpg in Resources */ = {isa = PBXBuildFile; fileRef = EF5318E323003D5300F3680C /* albumGorilla3.jpg */; };
+		EF531A0723003D5400F3680C /* albumGorilla23.jpg in Resources */ = {isa = PBXBuildFile; fileRef = EF5318E423003D5300F3680C /* albumGorilla23.jpg */; };
+		EF531A0823003D5400F3680C /* albumGorilla37.jpg in Resources */ = {isa = PBXBuildFile; fileRef = EF5318E523003D5300F3680C /* albumGorilla37.jpg */; };
+		EF531A0923003D5400F3680C /* albumGorilla36.jpg in Resources */ = {isa = PBXBuildFile; fileRef = EF5318E623003D5300F3680C /* albumGorilla36.jpg */; };
+		EF531A0A23003D5400F3680C /* albumGorilla22.jpg in Resources */ = {isa = PBXBuildFile; fileRef = EF5318E723003D5300F3680C /* albumGorilla22.jpg */; };
+		EF531A0B23003D5400F3680C /* albumGorilla2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = EF5318E823003D5300F3680C /* albumGorilla2.jpg */; };
+		EF531A0C23003D5400F3680C /* albumGorilla34.jpg in Resources */ = {isa = PBXBuildFile; fileRef = EF5318E923003D5300F3680C /* albumGorilla34.jpg */; };
+		EF531A0D23003D5400F3680C /* albumGorilla20.jpg in Resources */ = {isa = PBXBuildFile; fileRef = EF5318EA23003D5300F3680C /* albumGorilla20.jpg */; };
+		EF531A0E23003D5400F3680C /* albumGorilla21.jpg in Resources */ = {isa = PBXBuildFile; fileRef = EF5318EB23003D5300F3680C /* albumGorilla21.jpg */; };
+		EF531A0F23003D5400F3680C /* albumGorilla35.jpg in Resources */ = {isa = PBXBuildFile; fileRef = EF5318EC23003D5300F3680C /* albumGorilla35.jpg */; };
+		EF531A1023003D5400F3680C /* albumGorilla1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = EF5318ED23003D5300F3680C /* albumGorilla1.jpg */; };
+		EF531A1123003D5400F3680C /* albumGorilla5.jpg in Resources */ = {isa = PBXBuildFile; fileRef = EF5318EE23003D5300F3680C /* albumGorilla5.jpg */; };
+		EF531A1223003D5400F3680C /* albumGorilla19.jpg in Resources */ = {isa = PBXBuildFile; fileRef = EF5318EF23003D5300F3680C /* albumGorilla19.jpg */; };
+		EF531A1323003D5400F3680C /* albumGorilla31.jpg in Resources */ = {isa = PBXBuildFile; fileRef = EF5318F023003D5300F3680C /* albumGorilla31.jpg */; };
+		EF531A1423003D5400F3680C /* albumGorilla25.jpg in Resources */ = {isa = PBXBuildFile; fileRef = EF5318F123003D5300F3680C /* albumGorilla25.jpg */; };
+		EF531A1523003D5400F3680C /* albumGorilla24.jpg in Resources */ = {isa = PBXBuildFile; fileRef = EF5318F223003D5300F3680C /* albumGorilla24.jpg */; };
+		EF531A1623003D5400F3680C /* albumGorilla30.jpg in Resources */ = {isa = PBXBuildFile; fileRef = EF5318F323003D5300F3680C /* albumGorilla30.jpg */; };
+		EF531A1723003D5400F3680C /* albumGorilla18.jpg in Resources */ = {isa = PBXBuildFile; fileRef = EF5318F423003D5300F3680C /* albumGorilla18.jpg */; };
+		EF531A1823003D5400F3680C /* albumGorilla4.jpg in Resources */ = {isa = PBXBuildFile; fileRef = EF5318F523003D5300F3680C /* albumGorilla4.jpg */; };
+		EF531A1923003D5400F3680C /* albumGorilla6.jpg in Resources */ = {isa = PBXBuildFile; fileRef = EF5318F623003D5300F3680C /* albumGorilla6.jpg */; };
+		EF531A1A23003D5400F3680C /* albumGorilla26.jpg in Resources */ = {isa = PBXBuildFile; fileRef = EF5318F723003D5300F3680C /* albumGorilla26.jpg */; };
+		EF531A1B23003D5400F3680C /* albumGorilla32.jpg in Resources */ = {isa = PBXBuildFile; fileRef = EF5318F823003D5300F3680C /* albumGorilla32.jpg */; };
+		EF531A1C23003D5400F3680C /* albumGorilla33.jpg in Resources */ = {isa = PBXBuildFile; fileRef = EF5318F923003D5300F3680C /* albumGorilla33.jpg */; };
+		EF531A1D23003D5400F3680C /* albumGorilla27.jpg in Resources */ = {isa = PBXBuildFile; fileRef = EF5318FA23003D5300F3680C /* albumGorilla27.jpg */; };
+		EF531A1E23003D5400F3680C /* albumGorilla7.jpg in Resources */ = {isa = PBXBuildFile; fileRef = EF5318FB23003D5300F3680C /* albumGorilla7.jpg */; };
+		EF531A1F23003D5400F3680C /* albumGorilla16.jpg in Resources */ = {isa = PBXBuildFile; fileRef = EF5318FC23003D5300F3680C /* albumGorilla16.jpg */; };
+		EF531A2023003D5400F3680C /* albumGorilla17.jpg in Resources */ = {isa = PBXBuildFile; fileRef = EF5318FD23003D5300F3680C /* albumGorilla17.jpg */; };
+		EF531A2123003D5400F3680C /* albumGorilla9.jpg in Resources */ = {isa = PBXBuildFile; fileRef = EF5318FE23003D5300F3680C /* albumGorilla9.jpg */; };
+		EF531A2223003D5400F3680C /* albumGorilla15.jpg in Resources */ = {isa = PBXBuildFile; fileRef = EF5318FF23003D5300F3680C /* albumGorilla15.jpg */; };
+		EF531A2323003D5400F3680C /* albumGorilla29.jpg in Resources */ = {isa = PBXBuildFile; fileRef = EF53190023003D5300F3680C /* albumGorilla29.jpg */; };
+		EF531A2423003D5400F3680C /* albumGorilla28.jpg in Resources */ = {isa = PBXBuildFile; fileRef = EF53190123003D5300F3680C /* albumGorilla28.jpg */; };
+		EF531A2523003D5400F3680C /* albumGorilla14.jpg in Resources */ = {isa = PBXBuildFile; fileRef = EF53190223003D5300F3680C /* albumGorilla14.jpg */; };
+		EF531A2623003D5400F3680C /* albumGorilla8.jpg in Resources */ = {isa = PBXBuildFile; fileRef = EF53190323003D5300F3680C /* albumGorilla8.jpg */; };
+		EF531A2723003D5400F3680C /* albumGorilla38.jpg in Resources */ = {isa = PBXBuildFile; fileRef = EF53190423003D5300F3680C /* albumGorilla38.jpg */; };
+		EF531A2823003D5400F3680C /* albumGorilla10.jpg in Resources */ = {isa = PBXBuildFile; fileRef = EF53190523003D5300F3680C /* albumGorilla10.jpg */; };
+		EF531A2923003D5400F3680C /* albumGorilla11.jpg in Resources */ = {isa = PBXBuildFile; fileRef = EF53190623003D5300F3680C /* albumGorilla11.jpg */; };
+		EF531A2A23003D5400F3680C /* albumGorilla39.jpg in Resources */ = {isa = PBXBuildFile; fileRef = EF53190723003D5300F3680C /* albumGorilla39.jpg */; };
+		EF531A2B23003D5400F3680C /* albumGorilla13.jpg in Resources */ = {isa = PBXBuildFile; fileRef = EF53190823003D5300F3680C /* albumGorilla13.jpg */; };
+		EF531A2C23003D5400F3680C /* albumGorilla12.jpg in Resources */ = {isa = PBXBuildFile; fileRef = EF53190923003D5300F3680C /* albumGorilla12.jpg */; };
+		EF531A2D23003D5400F3680C /* albumGorilla61.jpg in Resources */ = {isa = PBXBuildFile; fileRef = EF53190A23003D5300F3680C /* albumGorilla61.jpg */; };
+		EF531A2E23003D5400F3680C /* albumGorilla75.jpg in Resources */ = {isa = PBXBuildFile; fileRef = EF53190B23003D5300F3680C /* albumGorilla75.jpg */; };
+		EF531A2F23003D5400F3680C /* albumGorilla49.jpg in Resources */ = {isa = PBXBuildFile; fileRef = EF53190C23003D5300F3680C /* albumGorilla49.jpg */; };
+		EF531A3023003D5400F3680C /* albumGorilla48.jpg in Resources */ = {isa = PBXBuildFile; fileRef = EF53190D23003D5300F3680C /* albumGorilla48.jpg */; };
+		EF531A3123003D5400F3680C /* albumGorilla74.jpg in Resources */ = {isa = PBXBuildFile; fileRef = EF53190E23003D5300F3680C /* albumGorilla74.jpg */; };
+		EF531A3223003D5400F3680C /* albumGorilla60.jpg in Resources */ = {isa = PBXBuildFile; fileRef = EF53190F23003D5300F3680C /* albumGorilla60.jpg */; };
+		EF531A3323003D5400F3680C /* albumGorilla62.jpg in Resources */ = {isa = PBXBuildFile; fileRef = EF53191023003D5300F3680C /* albumGorilla62.jpg */; };
+		EF531A3423003D5400F3680C /* albumGorilla63.jpg in Resources */ = {isa = PBXBuildFile; fileRef = EF53191123003D5300F3680C /* albumGorilla63.jpg */; };
+		EF531A3523003D5400F3680C /* albumGorilla73.jpg in Resources */ = {isa = PBXBuildFile; fileRef = EF53191223003D5300F3680C /* albumGorilla73.jpg */; };
+		EF531A3623003D5400F3680C /* albumGorilla67.jpg in Resources */ = {isa = PBXBuildFile; fileRef = EF53191323003D5300F3680C /* albumGorilla67.jpg */; };
+		EF531A3723003D5400F3680C /* albumGorilla66.jpg in Resources */ = {isa = PBXBuildFile; fileRef = EF53191423003D5300F3680C /* albumGorilla66.jpg */; };
+		EF531A3823003D5400F3680C /* albumGorilla72.jpg in Resources */ = {isa = PBXBuildFile; fileRef = EF53191523003D5300F3680C /* albumGorilla72.jpg */; };
+		EF531A3923003D5400F3680C /* albumGorilla58.jpg in Resources */ = {isa = PBXBuildFile; fileRef = EF53191623003D5300F3680C /* albumGorilla58.jpg */; };
+		EF531A3A23003D5400F3680C /* albumGorilla64.jpg in Resources */ = {isa = PBXBuildFile; fileRef = EF53191723003D5300F3680C /* albumGorilla64.jpg */; };
+		EF531A3B23003D5400F3680C /* albumGorilla70.jpg in Resources */ = {isa = PBXBuildFile; fileRef = EF53191823003D5300F3680C /* albumGorilla70.jpg */; };
+		EF531A3C23003D5400F3680C /* albumGorilla71.jpg in Resources */ = {isa = PBXBuildFile; fileRef = EF53191923003D5300F3680C /* albumGorilla71.jpg */; };
+		EF531A3D23003D5400F3680C /* albumGorilla65.jpg in Resources */ = {isa = PBXBuildFile; fileRef = EF53191A23003D5300F3680C /* albumGorilla65.jpg */; };
+		EF531A3E23003D5400F3680C /* albumGorilla59.jpg in Resources */ = {isa = PBXBuildFile; fileRef = EF53191B23003D5300F3680C /* albumGorilla59.jpg */; };
+		EF531A3F23003D5400F3680C /* シャバーニインスタ.jpg in Resources */ = {isa = PBXBuildFile; fileRef = EF53191D23003D5300F3680C /* シャバーニインスタ.jpg */; };
+		EF531A4023003D5400F3680C /* IMG_2529.jpg in Resources */ = {isa = PBXBuildFile; fileRef = EF53191E23003D5300F3680C /* IMG_2529.jpg */; };
+		EF531A4123003D5400F3680C /* IMG_2528.jpg in Resources */ = {isa = PBXBuildFile; fileRef = EF53191F23003D5300F3680C /* IMG_2528.jpg */; };
+		EF531A4223003D5400F3680C /* IMG_2523.jpg in Resources */ = {isa = PBXBuildFile; fileRef = EF53192023003D5300F3680C /* IMG_2523.jpg */; };
+		EF531A4323003D5400F3680C /* syoImage.jpg in Resources */ = {isa = PBXBuildFile; fileRef = EF53192123003D5300F3680C /* syoImage.jpg */; };
+		EF531A4423003D5400F3680C /* IMG_23961.jpg in Resources */ = {isa = PBXBuildFile; fileRef = EF53192223003D5300F3680C /* IMG_23961.jpg */; };
+		EF531A4523003D5400F3680C /* IMG_2530.jpg in Resources */ = {isa = PBXBuildFile; fileRef = EF53192323003D5300F3680C /* IMG_2530.jpg */; };
+		EF531A4623003D5400F3680C /* IMG_2526.jpg in Resources */ = {isa = PBXBuildFile; fileRef = EF53192423003D5300F3680C /* IMG_2526.jpg */; };
+		EF531A4723003D5400F3680C /* ゴリラ5.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = EF53192623003D5300F3680C /* ゴリラ5.jpeg */; };
+		EF531A4823003D5400F3680C /* GorillaStomach.jpg in Resources */ = {isa = PBXBuildFile; fileRef = EF53192723003D5300F3680C /* GorillaStomach.jpg */; };
+		EF531A4923003D5400F3680C /* warpaint-press-knockout-dribble.jpg in Resources */ = {isa = PBXBuildFile; fileRef = EF53192823003D5300F3680C /* warpaint-press-knockout-dribble.jpg */; };
+		EF531A4A23003D5400F3680C /* ゴリラ9.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = EF53192923003D5300F3680C /* ゴリラ9.jpeg */; };
+		EF531A4B23003D5400F3680C /* イケメンゴリラ写真集.jpg in Resources */ = {isa = PBXBuildFile; fileRef = EF53192A23003D5300F3680C /* イケメンゴリラ写真集.jpg */; };
+		EF531A4C23003D5400F3680C /* apes.jpg in Resources */ = {isa = PBXBuildFile; fileRef = EF53192B23003D5300F3680C /* apes.jpg */; };
+		EF531A4D23003D5400F3680C /* ゴリラ8.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = EF53192C23003D5300F3680C /* ゴリラ8.jpeg */; };
+		EF531A4E23003D5400F3680C /* ape2.png in Resources */ = {isa = PBXBuildFile; fileRef = EF53192D23003D5300F3680C /* ape2.png */; };
+		EF531A4F23003D5400F3680C /* ゴリラ4.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = EF53192E23003D5300F3680C /* ゴリラ4.jpeg */; };
+		EF531A5023003D5400F3680C /* xingxing400300.jpg in Resources */ = {isa = PBXBuildFile; fileRef = EF53192F23003D5300F3680C /* xingxing400300.jpg */; };
+		EF531A5123003D5400F3680C /* donkey_kong-01.png in Resources */ = {isa = PBXBuildFile; fileRef = EF53193023003D5300F3680C /* donkey_kong-01.png */; };
+		EF531A5223003D5400F3680C /* GentleGorilla.jpg in Resources */ = {isa = PBXBuildFile; fileRef = EF53193123003D5300F3680C /* GentleGorilla.jpg */; };
+		EF531A5323003D5400F3680C /* ゴリラ3.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = EF53193223003D5300F3680C /* ゴリラ3.jpeg */; };
+		EF531A5423003D5400F3680C /* errol.png in Resources */ = {isa = PBXBuildFile; fileRef = EF53193323003D5300F3680C /* errol.png */; };
+		EF531A5523003D5400F3680C /* ゴリラ11.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = EF53193423003D5300F3680C /* ゴリラ11.jpeg */; };
+		EF531A5623003D5400F3680C /* textme-17.png in Resources */ = {isa = PBXBuildFile; fileRef = EF53193523003D5300F3680C /* textme-17.png */; };
+		EF531A5723003D5400F3680C /* gorilla.jpg in Resources */ = {isa = PBXBuildFile; fileRef = EF53193623003D5300F3680C /* gorilla.jpg */; };
+		EF531A5823003D5400F3680C /* ゴリラ10.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = EF53193723003D5300F3680C /* ゴリラ10.jpeg */; };
+		EF531A5923003D5400F3680C /* ゴリラを見る俺.jpg in Resources */ = {isa = PBXBuildFile; fileRef = EF53193823003D5300F3680C /* ゴリラを見る俺.jpg */; };
+		EF531A5A23003D5400F3680C /* gorillove_dribbble_1x.png in Resources */ = {isa = PBXBuildFile; fileRef = EF53193923003D5300F3680C /* gorillove_dribbble_1x.png */; };
+		EF531A5B23003D5400F3680C /* phonerillaz.jpg in Resources */ = {isa = PBXBuildFile; fileRef = EF53193A23003D5400F3680C /* phonerillaz.jpg */; };
+		EF531A5C23003D5400F3680C /* ゴリラ2.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = EF53193B23003D5400F3680C /* ゴリラ2.jpeg */; };
+		EF531A5D23003D5400F3680C /* ゴリラスタンプ.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = EF53193C23003D5400F3680C /* ゴリラスタンプ.jpeg */; };
+		EF531A5E23003D5400F3680C /* 上野動物園のゴリラ.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = EF53193D23003D5400F3680C /* 上野動物園のゴリラ.jpeg */; };
+		EF531A5F23003D5400F3680C /* gorilla-1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = EF53193E23003D5400F3680C /* gorilla-1.jpg */; };
+		EF531A6023003D5400F3680C /* gorilla-lowpoly_dribbble.png in Resources */ = {isa = PBXBuildFile; fileRef = EF53193F23003D5400F3680C /* gorilla-lowpoly_dribbble.png */; };
+		EF531A6123003D5400F3680C /* gorilla-1.png in Resources */ = {isa = PBXBuildFile; fileRef = EF53194023003D5400F3680C /* gorilla-1.png */; };
+		EF531A6223003D5400F3680C /* gorilla_dr.png in Resources */ = {isa = PBXBuildFile; fileRef = EF53194123003D5400F3680C /* gorilla_dr.png */; };
+		EF531A6323003D5400F3680C /* ゴリラAppアイコン用.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = EF53194223003D5400F3680C /* ゴリラAppアイコン用.jpeg */; };
+		EF531A6423003D5400F3680C /* greyscalgorilla.jpg in Resources */ = {isa = PBXBuildFile; fileRef = EF53194323003D5400F3680C /* greyscalgorilla.jpg */; };
+		EF531A6523003D5400F3680C /* Knucklewalking.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = EF53194423003D5400F3680C /* Knucklewalking.jpeg */; };
+		EF531A6623003D5400F3680C /* ゴリラ1.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = EF53194523003D5400F3680C /* ゴリラ1.jpeg */; };
+		EF531A6723003D5400F3680C /* ________.png in Resources */ = {isa = PBXBuildFile; fileRef = EF53194623003D5400F3680C /* ________.png */; };
+		EF531A6823003D5400F3680C /* ゴリラの寝姿.jpg in Resources */ = {isa = PBXBuildFile; fileRef = EF53194723003D5400F3680C /* ゴリラの寝姿.jpg */; };
+		EF531A6923003D5400F3680C /* GORILLA3.png in Resources */ = {isa = PBXBuildFile; fileRef = EF53194823003D5400F3680C /* GORILLA3.png */; };
+		EF531A6A23003D5400F3680C /* ゴリラ7.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = EF53194923003D5400F3680C /* ゴリラ7.jpeg */; };
+		EF531A6B23003D5400F3680C /* GORILLA2.png in Resources */ = {isa = PBXBuildFile; fileRef = EF53194A23003D5400F3680C /* GORILLA2.png */; };
+		EF531A6C23003D5400F3680C /* 切り取りcuteGorilola.png in Resources */ = {isa = PBXBuildFile; fileRef = EF53194B23003D5400F3680C /* 切り取りcuteGorilola.png */; };
+		EF531A6D23003D5400F3680C /* GORILLA1.png in Resources */ = {isa = PBXBuildFile; fileRef = EF53194C23003D5400F3680C /* GORILLA1.png */; };
+		EF531A6E23003D5400F3680C /* gorilla-dribble.jpg in Resources */ = {isa = PBXBuildFile; fileRef = EF53194D23003D5400F3680C /* gorilla-dribble.jpg */; };
+		EF531A6F23003D5400F3680C /* GORILLAImage.jpg in Resources */ = {isa = PBXBuildFile; fileRef = EF53194E23003D5400F3680C /* GORILLAImage.jpg */; };
+		EF531A7023003D5400F3680C /* GORILLA5.png in Resources */ = {isa = PBXBuildFile; fileRef = EF53194F23003D5400F3680C /* GORILLA5.png */; };
+		EF531A7123003D5400F3680C /* GORILLA4.jpg in Resources */ = {isa = PBXBuildFile; fileRef = EF53195023003D5400F3680C /* GORILLA4.jpg */; };
+		EF531A7223003D5400F3680C /* images.png in Resources */ = {isa = PBXBuildFile; fileRef = EF53195123003D5400F3680C /* images.png */; };
+		EF531A7323003D5400F3680C /* GentleGorillaAppLabel.png in Resources */ = {isa = PBXBuildFile; fileRef = EF53195223003D5400F3680C /* GentleGorillaAppLabel.png */; };
+		EF531A7423003D5400F3680C /* GORILLA6.png in Resources */ = {isa = PBXBuildFile; fileRef = EF53195323003D5400F3680C /* GORILLA6.png */; };
+		EF531A7523003D5400F3680C /* ゴリラ6.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = EF53195423003D5400F3680C /* ゴリラ6.jpeg */; };
+		EF531A7623003D5400F3680C /* GorillaLogic.jpg in Resources */ = {isa = PBXBuildFile; fileRef = EF53195523003D5400F3680C /* GorillaLogic.jpg */; };
+		EF531A7723003D5400F3680C /* bad_monkey.jpg in Resources */ = {isa = PBXBuildFile; fileRef = EF53195623003D5400F3680C /* bad_monkey.jpg */; };
+		EF531A7823003D5400F3680C /* GORILLA7.jpg in Resources */ = {isa = PBXBuildFile; fileRef = EF53195723003D5400F3680C /* GORILLA7.jpg */; };
+		EF531A7923003D5400F3680C /* MountainGorilla.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = EF53195923003D5400F3680C /* MountainGorilla.jpeg */; };
+		EF531A7A23003D5400F3680C /* HigashiRolandGorilla.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = EF53195A23003D5400F3680C /* HigashiRolandGorilla.jpeg */; };
+		EF531A7B23003D5400F3680C /* NishiRolandGorilla.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = EF53195B23003D5400F3680C /* NishiRolandGorilla.jpeg */; };
+		EF531A7C23003D5400F3680C /* Icon-App-57x57@1x.png in Resources */ = {isa = PBXBuildFile; fileRef = EF53195E23003D5400F3680C /* Icon-App-57x57@1x.png */; };
+		EF531A7D23003D5400F3680C /* Icon-App-76x76@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = EF53195F23003D5400F3680C /* Icon-App-76x76@2x.png */; };
+		EF531A7E23003D5400F3680C /* Icon-App-29x29@1x.png in Resources */ = {isa = PBXBuildFile; fileRef = EF53196023003D5400F3680C /* Icon-App-29x29@1x.png */; };
+		EF531A7F23003D5400F3680C /* Icon-App-60x60@1x.png in Resources */ = {isa = PBXBuildFile; fileRef = EF53196123003D5400F3680C /* Icon-App-60x60@1x.png */; };
+		EF531A8023003D5400F3680C /* Icon-Small-50x50@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = EF53196223003D5400F3680C /* Icon-Small-50x50@2x.png */; };
+		EF531A8123003D5400F3680C /* Icon-App-40x40@1x.png in Resources */ = {isa = PBXBuildFile; fileRef = EF53196323003D5400F3680C /* Icon-App-40x40@1x.png */; };
+		EF531A8223003D5400F3680C /* Icon-App-76x76@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = EF53196423003D5400F3680C /* Icon-App-76x76@3x.png */; };
+		EF531A8323003D5400F3680C /* Icon-App-72x72@1x.png in Resources */ = {isa = PBXBuildFile; fileRef = EF53196523003D5400F3680C /* Icon-App-72x72@1x.png */; };
+		EF531A8423003D5400F3680C /* Icon-App-20x20@1x.png in Resources */ = {isa = PBXBuildFile; fileRef = EF53196623003D5400F3680C /* Icon-App-20x20@1x.png */; };
+		EF531A8523003D5400F3680C /* Icon-App-83.5x83.5@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = EF53196723003D5400F3680C /* Icon-App-83.5x83.5@2x.png */; };
+		EF531A8623003D5400F3680C /* Icon-App-20x20@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = EF53196823003D5400F3680C /* Icon-App-20x20@3x.png */; };
+		EF531A8723003D5400F3680C /* Icon-App-20x20@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = EF53196923003D5400F3680C /* Icon-App-20x20@2x.png */; };
+		EF531A8823003D5400F3680C /* Icon-App-29x29@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = EF53196A23003D5400F3680C /* Icon-App-29x29@3x.png */; };
+		EF531A8923003D5400F3680C /* Icon-App-40x40@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = EF53196B23003D5400F3680C /* Icon-App-40x40@2x.png */; };
+		EF531A8A23003D5400F3680C /* Icon-App-72x72@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = EF53196C23003D5400F3680C /* Icon-App-72x72@2x.png */; };
+		EF531A8B23003D5400F3680C /* Icon-App-60x60@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = EF53196D23003D5400F3680C /* Icon-App-60x60@3x.png */; };
+		EF531A8C23003D5400F3680C /* Icon-Small-50x50@1x.png in Resources */ = {isa = PBXBuildFile; fileRef = EF53196E23003D5400F3680C /* Icon-Small-50x50@1x.png */; };
+		EF531A8D23003D5400F3680C /* Icon-App-60x60@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = EF53196F23003D5400F3680C /* Icon-App-60x60@2x.png */; };
+		EF531A8E23003D5400F3680C /* Icon-App-57x57@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = EF53197023003D5400F3680C /* Icon-App-57x57@2x.png */; };
+		EF531A8F23003D5400F3680C /* Icon-App-76x76@1x.png in Resources */ = {isa = PBXBuildFile; fileRef = EF53197123003D5400F3680C /* Icon-App-76x76@1x.png */; };
+		EF531A9023003D5400F3680C /* Icon-App-40x40@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = EF53197223003D5400F3680C /* Icon-App-40x40@3x.png */; };
+		EF531A9123003D5400F3680C /* Icon-App-29x29@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = EF53197323003D5400F3680C /* Icon-App-29x29@2x.png */; };
+		EF531A9223003D5400F3680C /* iTunesArtwork@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = EF53197423003D5400F3680C /* iTunesArtwork@2x.png */; };
+		EF531A9323003D5400F3680C /* Congratulations-Pic.png in Resources */ = {isa = PBXBuildFile; fileRef = EF53197523003D5400F3680C /* Congratulations-Pic.png */; };
+		EF531A9423003D5400F3680C /* stop.png in Resources */ = {isa = PBXBuildFile; fileRef = EF53197723003D5400F3680C /* stop.png */; };
+		EF531A9523003D5400F3680C /* チューリップゴリラ.png in Resources */ = {isa = PBXBuildFile; fileRef = EF53197823003D5400F3680C /* チューリップゴリラ.png */; };
+		EF531A9623003D5400F3680C /* bang.png in Resources */ = {isa = PBXBuildFile; fileRef = EF53197923003D5400F3680C /* bang.png */; };
+		EF531A9723003D5400F3680C /* 赤ちゃんゴリラ.jpg in Resources */ = {isa = PBXBuildFile; fileRef = EF53197A23003D5400F3680C /* 赤ちゃんゴリラ.jpg */; };
+		EF531A9823003D5400F3680C /* babyGorilla.jpg in Resources */ = {isa = PBXBuildFile; fileRef = EF53197B23003D5400F3680C /* babyGorilla.jpg */; };
+		EF531A9923003D5400F3680C /* gorillahand.jpg in Resources */ = {isa = PBXBuildFile; fileRef = EF53197C23003D5400F3680C /* gorillahand.jpg */; };
+		EF531A9A23003D5400F3680C /* cancel.jpg in Resources */ = {isa = PBXBuildFile; fileRef = EF53197D23003D5400F3680C /* cancel.jpg */; };
+		EF531A9B23003D5400F3680C /* 水浴びゴリラ.png in Resources */ = {isa = PBXBuildFile; fileRef = EF53197E23003D5400F3680C /* 水浴びゴリラ.png */; };
+		EF531A9C23003D5400F3680C /* dangerGorilla.jpg in Resources */ = {isa = PBXBuildFile; fileRef = EF53197F23003D5400F3680C /* dangerGorilla.jpg */; };
+		EF531A9D23003D5400F3680C /* quarrel.jpg in Resources */ = {isa = PBXBuildFile; fileRef = EF53198023003D5400F3680C /* quarrel.jpg */; };
+		EF531A9E23003D5400F3680C /* Handstand.jpg in Resources */ = {isa = PBXBuildFile; fileRef = EF53198123003D5400F3680C /* Handstand.jpg */; };
+		EF531A9F23003D5400F3680C /* ゴリラに襲われる.jpg in Resources */ = {isa = PBXBuildFile; fileRef = EF53198223003D5400F3680C /* ゴリラに襲われる.jpg */; };
+		EF531AA023003D5400F3680C /* gorillabro.png in Resources */ = {isa = PBXBuildFile; fileRef = EF53198323003D5400F3680C /* gorillabro.png */; };
+		EF531AA123003D5400F3680C /* hamadaGorilla.jpg in Resources */ = {isa = PBXBuildFile; fileRef = EF53198423003D5400F3680C /* hamadaGorilla.jpg */; };
+		EF531AA223003D5400F3680C /* drumming.jpg in Resources */ = {isa = PBXBuildFile; fileRef = EF53198523003D5400F3680C /* drumming.jpg */; };
+		EF531AA323003D5400F3680C /* ゴリラアイコン1.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = EF53198623003D5400F3680C /* ゴリラアイコン1.jpeg */; };
+		EF531AA423003D5400F3680C /* ゴリラアイコン2.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = EF53198723003D5400F3680C /* ゴリラアイコン2.jpeg */; };
+		EF531AA523003D5400F3680C /* walkingGorilla.jpg in Resources */ = {isa = PBXBuildFile; fileRef = EF53198823003D5400F3680C /* walkingGorilla.jpg */; };
+		EF531AA623003D5400F3680C /* グラブルゴリラ.jpg in Resources */ = {isa = PBXBuildFile; fileRef = EF53198923003D5400F3680C /* グラブルゴリラ.jpg */; };
+		EF531AA723003D5400F3680C /* angry.jpg in Resources */ = {isa = PBXBuildFile; fileRef = EF53198A23003D5400F3680C /* angry.jpg */; };
+		EF531AA823003D5400F3680C /* go.png in Resources */ = {isa = PBXBuildFile; fileRef = EF53198B23003D5400F3680C /* go.png */; };
+		EF531AA923003D5400F3680C /* modoru.png in Resources */ = {isa = PBXBuildFile; fileRef = EF53198C23003D5400F3680C /* modoru.png */; };
+		EF531AAA23003D5400F3680C /* NEWSのイラスト素材.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = EF53198D23003D5400F3680C /* NEWSのイラスト素材.jpeg */; };
+		EF531AAB23003D5400F3680C /* susumu.png in Resources */ = {isa = PBXBuildFile; fileRef = EF53198E23003D5400F3680C /* susumu.png */; };
+		EF531AAC23003D5400F3680C /* infoButton.png in Resources */ = {isa = PBXBuildFile; fileRef = EF53198F23003D5400F3680C /* infoButton.png */; };
+		EF531AAD23003D5400F3680C /* wild.jpg in Resources */ = {isa = PBXBuildFile; fileRef = EF53199023003D5400F3680C /* wild.jpg */; };
+		EF531AAE23003D5400F3680C /* booger.jpg in Resources */ = {isa = PBXBuildFile; fileRef = EF53199123003D5400F3680C /* booger.jpg */; };
+		EF531AAF23003D5400F3680C /* gorilla2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = EF53199223003D5400F3680C /* gorilla2.jpg */; };
+		EF531AB023003D5400F3680C /* toilet.jpg in Resources */ = {isa = PBXBuildFile; fileRef = EF53199323003D5400F3680C /* toilet.jpg */; };
+		EF531AB123003D5400F3680C /* backtoPage.png in Resources */ = {isa = PBXBuildFile; fileRef = EF53199423003D5400F3680C /* backtoPage.png */; };
+		EF531AB223003D5400F3680C /* placeholderImage.jpg in Resources */ = {isa = PBXBuildFile; fileRef = EF53199523003D5400F3680C /* placeholderImage.jpg */; };
+		EF531AB323003D5400F3680C /* back.png in Resources */ = {isa = PBXBuildFile; fileRef = EF53199623003D5400F3680C /* back.png */; };
+		EF531AB423003D5400F3680C /* start.png in Resources */ = {isa = PBXBuildFile; fileRef = EF53199723003D5400F3680C /* start.png */; };
+		EF531AB823003EE600F3680C /* ZinHenaBokuryu-RCF.otf in Resources */ = {isa = PBXBuildFile; fileRef = EF531AB723003EE600F3680C /* ZinHenaBokuryu-RCF.otf */; };
+		EF531ABF23003F4000F3680C /* DotsLoader.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF531ABB23003F4000F3680C /* DotsLoader.swift */; };
+		EF531AC023003F4000F3680C /* CustomButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF531ABC23003F4000F3680C /* CustomButton.swift */; };
+		EF531AC123003F4000F3680C /* CAPSPageMenu.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF531ABD23003F4000F3680C /* CAPSPageMenu.swift */; };
+		EF531AC223003F4000F3680C /* SweetAlert.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF531ABE23003F4000F3680C /* SweetAlert.swift */; };
+		EF531AC823003F8500F3680C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF531AC423003F8500F3680C /* ViewController.swift */; };
+		EF531AC923003F8500F3680C /* QuizTestViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF531AC523003F8500F3680C /* QuizTestViewController.swift */; };
+		EF531ACA23003F8500F3680C /* QuizHomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF531AC623003F8500F3680C /* QuizHomeViewController.swift */; };
+		EF531ACB23003F8500F3680C /* Quiz.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF531AC723003F8500F3680C /* Quiz.swift */; };
+		EF531AD023003F9200F3680C /* DetailAlbumViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF531ACD23003F9200F3680C /* DetailAlbumViewController.swift */; };
+		EF531AD123003F9200F3680C /* AlbumViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF531ACE23003F9200F3680C /* AlbumViewController.swift */; };
+		EF531AD223003F9200F3680C /* MamechishikiButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF531ACF23003F9200F3680C /* MamechishikiButton.swift */; };
+		EF531AF623003F9C00F3680C /* SyoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF531AD523003F9C00F3680C /* SyoViewController.swift */; };
+		EF531AF723003F9C00F3680C /* HamamatsuViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF531AD623003F9C00F3680C /* HamamatsuViewController.swift */; };
+		EF531AF823003F9C00F3680C /* MontaViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF531AD823003F9C00F3680C /* MontaViewController.swift */; };
+		EF531AF923003F9C00F3680C /* RolaViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF531AD923003F9C00F3680C /* RolaViewController.swift */; };
+		EF531AFA23003F9C00F3680C /* ChibaViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF531ADA23003F9C00F3680C /* ChibaViewController.swift */; };
+		EF531AFB23003F9C00F3680C /* MonkeyCenterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF531ADC23003F9C00F3680C /* MonkeyCenterViewController.swift */; };
+		EF531AFC23003F9C00F3680C /* TaroViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF531ADD23003F9C00F3680C /* TaroViewController.swift */; };
+		EF531AFD23003F9C00F3680C /* GorillaMapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF531ADE23003F9C00F3680C /* GorillaMapViewController.swift */; };
+		EF531AFE23003F9C00F3680C /* SendaiViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF531AE023003F9C00F3680C /* SendaiViewController.swift */; };
+		EF531AFF23003F9C00F3680C /* DonViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF531AE123003F9C00F3680C /* DonViewController.swift */; };
+		EF531B0023003F9C00F3680C /* DetailSmartGorillaViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF531AE223003F9C00F3680C /* DetailSmartGorillaViewController.swift */; };
+		EF531B0123003F9C00F3680C /* SmartGorillaTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = EF531AE323003F9C00F3680C /* SmartGorillaTableViewCell.xib */; };
+		EF531B0223003F9C00F3680C /* SmartGorillaViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF531AE423003F9C00F3680C /* SmartGorillaViewController.swift */; };
+		EF531B0323003F9C00F3680C /* Left.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EF531AE523003F9C00F3680C /* Left.storyboard */; };
+		EF531B0423003F9C00F3680C /* SmartGorillaTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF531AE623003F9C00F3680C /* SmartGorillaTableViewCell.swift */; };
+		EF531B0523003F9C00F3680C /* KyotoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF531AE823003F9C00F3680C /* KyotoViewController.swift */; };
+		EF531B0623003F9C00F3680C /* GentaroViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF531AE923003F9C00F3680C /* GentaroViewController.swift */; };
+		EF531B0723003F9C00F3680C /* MomotaroViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF531AEA23003F9C00F3680C /* MomotaroViewController.swift */; };
+		EF531B0823003F9C00F3680C /* GenkiViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF531AEB23003F9C00F3680C /* GenkiViewController.swift */; };
+		EF531B0923003F9C00F3680C /* UenoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF531AED23003F9C00F3680C /* UenoViewController.swift */; };
+		EF531B0A23003F9C00F3680C /* JapanMapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF531AEE23003F9C00F3680C /* JapanMapViewController.swift */; };
+		EF531B0B23003F9C00F3680C /* AniViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF531AF023003F9C00F3680C /* AniViewController.swift */; };
+		EF531B0C23003F9C00F3680C /* HigashiyamaViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF531AF123003F9C00F3680C /* HigashiyamaViewController.swift */; };
+		EF531B0D23003F9C00F3680C /* SyabaniViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF531AF223003F9C00F3680C /* SyabaniViewController.swift */; };
+		EF531B0E23003F9C00F3680C /* AiViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF531AF323003F9C00F3680C /* AiViewController.swift */; };
+		EF531B0F23003F9C00F3680C /* KiyomasaViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF531AF423003F9C00F3680C /* KiyomasaViewController.swift */; };
+		EF531B1023003F9C00F3680C /* NeneViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF531AF523003F9C00F3680C /* NeneViewController.swift */; };
+		EF531B1723003FA300F3680C /* GorillaListTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = EF531B1223003FA300F3680C /* GorillaListTableViewCell.xib */; };
+		EF531B1823003FA300F3680C /* GorillaListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF531B1323003FA300F3680C /* GorillaListViewController.swift */; };
+		EF531B1923003FA300F3680C /* DetailGorillaListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF531B1423003FA300F3680C /* DetailGorillaListViewController.swift */; };
+		EF531B1A23003FA300F3680C /* GorillaListTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF531B1523003FA300F3680C /* GorillaListTableViewCell.swift */; };
+		EF531B1B23003FA300F3680C /* GorillaDetailImageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF531B1623003FA300F3680C /* GorillaDetailImageViewController.swift */; };
+		EF531B2223003FAC00F3680C /* PagingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF531B1D23003FAC00F3680C /* PagingViewController.swift */; };
+		EF531B2323003FAC00F3680C /* NewsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF531B1E23003FAC00F3680C /* NewsViewController.swift */; };
+		EF531B2423003FAC00F3680C /* BiglobeNewsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF531B1F23003FAC00F3680C /* BiglobeNewsViewController.swift */; };
+		EF531B2523003FAC00F3680C /* MyGorillaNewsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF531B2023003FAC00F3680C /* MyGorillaNewsViewController.swift */; };
+		EF531B2623003FAC00F3680C /* GorillaMovieViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF531B2123003FAC00F3680C /* GorillaMovieViewController.swift */; };
+		EF531B2B23003FC400F3680C /* FrontViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF531B2823003FC400F3680C /* FrontViewController.swift */; };
+		EF531B2C23003FC400F3680C /* EnterGorillaViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF531B2923003FC400F3680C /* EnterGorillaViewController.swift */; };
+		EF531B2D23003FC400F3680C /* TabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF531B2A23003FC400F3680C /* TabBarController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		051B6CF094CA270C14585580 /* Pods-GorillaGorillaGorilla.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GorillaGorillaGorilla.debug.xcconfig"; path = "Pods/Target Support Files/Pods-GorillaGorillaGorilla/Pods-GorillaGorillaGorilla.debug.xcconfig"; sourceTree = "<group>"; };
+		2178F37BB18B80C7563786B4 /* Pods_GorillaGorillaGorilla.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_GorillaGorillaGorilla.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		6A26FE2C0242D6B6A398BB08 /* Pods-GorillaGorillaGorilla.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GorillaGorillaGorilla.release.xcconfig"; path = "Pods/Target Support Files/Pods-GorillaGorillaGorilla/Pods-GorillaGorillaGorilla.release.xcconfig"; sourceTree = "<group>"; };
 		EF5315F123003A5900F3680C /* GorillaGorillaGorilla.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GorillaGorillaGorilla.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		EF5315F423003A5900F3680C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		EF5315F623003A5A00F3680C /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -24,6 +356,334 @@
 		EF5315FE23003A5B00F3680C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		EF53160123003A5B00F3680C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		EF53160323003A5B00F3680C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EF53186723003D2900F3680C /* なきむしポルカFREE.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "なきむしポルカFREE.otf"; sourceTree = "<group>"; };
+		EF53186B23003D5300F3680C /* maru.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = maru.png; sourceTree = "<group>"; };
+		EF53187123003D5300F3680C /* banana1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = banana1.jpg; sourceTree = "<group>"; };
+		EF53187223003D5300F3680C /* banana2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = banana2.jpg; sourceTree = "<group>"; };
+		EF53187323003D5300F3680C /* cancel.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = cancel.jpeg; sourceTree = "<group>"; };
+		EF53187423003D5300F3680C /* bananaButton.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = bananaButton.png; sourceTree = "<group>"; };
+		EF53187523003D5300F3680C /* go.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = go.jpg; sourceTree = "<group>"; };
+		EF53187823003D5300F3680C /* back.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = back.jpg; sourceTree = "<group>"; };
+		EF53187D23003D5300F3680C /* backgroundImage1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = backgroundImage1.jpg; sourceTree = "<group>"; };
+		EF53187E23003D5300F3680C /* backgroundImage2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = backgroundImage2.jpg; sourceTree = "<group>"; };
+		EF53187F23003D5300F3680C /* backgroundImage3.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = backgroundImage3.jpg; sourceTree = "<group>"; };
+		EF53188023003D5300F3680C /* backgroundImage4.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = backgroundImage4.jpg; sourceTree = "<group>"; };
+		EF53188123003D5300F3680C /* JapanMapImage.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = JapanMapImage.jpg; sourceTree = "<group>"; };
+		EF53188223003D5300F3680C /* backgroundImage5.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = backgroundImage5.jpg; sourceTree = "<group>"; };
+		EF53188323003D5300F3680C /* backgroundImage6.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = backgroundImage6.jpg; sourceTree = "<group>"; };
+		EF53188423003D5300F3680C /* backgroundImage7.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = backgroundImage7.jpg; sourceTree = "<group>"; };
+		EF53188523003D5300F3680C /* batsu.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = batsu.png; sourceTree = "<group>"; };
+		EF53188623003D5300F3680C /* nagaiyuki.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = nagaiyuki.png; sourceTree = "<group>"; };
+		EF53188823003D5300F3680C /* placeholder.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = placeholder.png; sourceTree = "<group>"; };
+		EF53188923003D5300F3680C /* LoginViewImage.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = LoginViewImage.png; sourceTree = "<group>"; };
+		EF53188A23003D5300F3680C /* placeholderImage.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = placeholderImage.png; sourceTree = "<group>"; };
+		EF53188C23003D5300F3680C /* chibashiZooImage.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = chibashiZooImage.jpeg; sourceTree = "<group>"; };
+		EF53188D23003D5300F3680C /* higasiyamaZooImage.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = higasiyamaZooImage.jpeg; sourceTree = "<group>"; };
+		EF53188E23003D5300F3680C /* yagiyamaZooImage.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = yagiyamaZooImage.jpeg; sourceTree = "<group>"; };
+		EF53188F23003D5300F3680C /* kyotoZooImage.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = kyotoZooImage.jpeg; sourceTree = "<group>"; };
+		EF53189023003D5300F3680C /* hamamatsuZooImage.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = hamamatsuZooImage.jpeg; sourceTree = "<group>"; };
+		EF53189123003D5300F3680C /* japanMonkeyCenterImage.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = japanMonkeyCenterImage.jpeg; sourceTree = "<group>"; };
+		EF53189223003D5300F3680C /* uenoZooImage.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = uenoZooImage.jpg; sourceTree = "<group>"; };
+		EF53189323003D5300F3680C /* sideMenu.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = sideMenu.gif; sourceTree = "<group>"; };
+		EF53189523003D5300F3680C /* news.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = news.png; sourceTree = "<group>"; };
+		EF53189623003D5300F3680C /* hightlightList.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = hightlightList.png; sourceTree = "<group>"; };
+		EF53189723003D5300F3680C /* knowledge.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = knowledge.png; sourceTree = "<group>"; };
+		EF53189823003D5300F3680C /* tabQuiz.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = tabQuiz.png; sourceTree = "<group>"; };
+		EF53189923003D5300F3680C /* Map.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Map.png; sourceTree = "<group>"; };
+		EF53189A23003D5300F3680C /* tabMemo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = tabMemo.png; sourceTree = "<group>"; };
+		EF53189B23003D5300F3680C /* tabMap.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = tabMap.png; sourceTree = "<group>"; };
+		EF53189C23003D5300F3680C /* hightlightknowledge.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = hightlightknowledge.png; sourceTree = "<group>"; };
+		EF53189D23003D5300F3680C /* hightlightNews.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = hightlightNews.png; sourceTree = "<group>"; };
+		EF53189E23003D5300F3680C /* list.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = list.png; sourceTree = "<group>"; };
+		EF53189F23003D5300F3680C /* hightlightQuiz.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = hightlightQuiz.png; sourceTree = "<group>"; };
+		EF5318A023003D5300F3680C /* hightlightMap.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = hightlightMap.png; sourceTree = "<group>"; };
+		EF5318A123003D5300F3680C /* tabList.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = tabList.png; sourceTree = "<group>"; };
+		EF5318A223003D5300F3680C /* tabKnowledge.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = tabKnowledge.png; sourceTree = "<group>"; };
+		EF5318A323003D5300F3680C /* Quiz.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Quiz.png; sourceTree = "<group>"; };
+		EF5318A623003D5300F3680C /* whiteGorilla.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = whiteGorilla.jpg; sourceTree = "<group>"; };
+		EF5318A723003D5300F3680C /* whiteGorilla.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = whiteGorilla.jpeg; sourceTree = "<group>"; };
+		EF5318A923003D5300F3680C /* gorilla-dribbble.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = "gorilla-dribbble.gif"; sourceTree = "<group>"; };
+		EF5318AA23003D5300F3680C /* dribbblegorillagif3.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = dribbblegorillagif3.gif; sourceTree = "<group>"; };
+		EF5318AB23003D5300F3680C /* dribbblegorillagif2.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = dribbblegorillagif2.gif; sourceTree = "<group>"; };
+		EF5318AC23003D5300F3680C /* dribbblegorillagif1.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = dribbblegorillagif1.gif; sourceTree = "<group>"; };
+		EF5318AD23003D5300F3680C /* 1_gorila_dribbble.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = 1_gorila_dribbble.gif; sourceTree = "<group>"; };
+		EF5318AF23003D5300F3680C /* ゲンタロウ.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "ゲンタロウ.jpg"; sourceTree = "<group>"; };
+		EF5318B023003D5300F3680C /* アイ.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "アイ.jpg"; sourceTree = "<group>"; };
+		EF5318B123003D5300F3680C /* ケンタ.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "ケンタ.jpg"; sourceTree = "<group>"; };
+		EF5318B223003D5300F3680C /* ナナ.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "ナナ.jpg"; sourceTree = "<group>"; };
+		EF5318B323003D5300F3680C /* アニー.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "アニー.jpg"; sourceTree = "<group>"; };
+		EF5318B423003D5300F3680C /* ハオコ.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "ハオコ.jpg"; sourceTree = "<group>"; };
+		EF5318B523003D5300F3680C /* タロウ.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "タロウ.jpg"; sourceTree = "<group>"; };
+		EF5318B723003D5300F3680C /* ペイントコモモ.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "ペイントコモモ.jpg"; sourceTree = "<group>"; };
+		EF5318B823003D5300F3680C /* ペイントモモカ.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "ペイントモモカ.jpg"; sourceTree = "<group>"; };
+		EF5318B923003D5300F3680C /* ペイントハオコ.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "ペイントハオコ.jpg"; sourceTree = "<group>"; };
+		EF5318BA23003D5300F3680C /* ペイントナナ.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "ペイントナナ.jpg"; sourceTree = "<group>"; };
+		EF5318BB23003D5300F3680C /* ペイントピーコ.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "ペイントピーコ.jpg"; sourceTree = "<group>"; };
+		EF5318BC23003D5300F3680C /* ペイントトト.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "ペイントトト.jpg"; sourceTree = "<group>"; };
+		EF5318BD23003D5300F3680C /* ペイントモモコ.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "ペイントモモコ.jpg"; sourceTree = "<group>"; };
+		EF5318BE23003D5300F3680C /* ペイントリキ.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "ペイントリキ.jpg"; sourceTree = "<group>"; };
+		EF5318BF23003D5300F3680C /* ピンドン.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "ピンドン.jpg"; sourceTree = "<group>"; };
+		EF5318C023003D5300F3680C /* モモカ.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "モモカ.jpg"; sourceTree = "<group>"; };
+		EF5318C123003D5300F3680C /* ゲンキ.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "ゲンキ.jpg"; sourceTree = "<group>"; };
+		EF5318C223003D5300F3680C /* ネネ.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "ネネ.jpg"; sourceTree = "<group>"; };
+		EF5318C323003D5300F3680C /* コモモ.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "コモモ.jpg"; sourceTree = "<group>"; };
+		EF5318C423003D5300F3680C /* ローラ.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "ローラ.jpg"; sourceTree = "<group>"; };
+		EF5318C523003D5300F3680C /* ムサシ.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "ムサシ.jpg"; sourceTree = "<group>"; };
+		EF5318C623003D5300F3680C /* ドン.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "ドン.jpg"; sourceTree = "<group>"; };
+		EF5318C723003D5300F3680C /* ピーコ.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "ピーコ.jpg"; sourceTree = "<group>"; };
+		EF5318C823003D5300F3680C /* リキ.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "リキ.jpg"; sourceTree = "<group>"; };
+		EF5318C923003D5300F3680C /* モモコ.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "モモコ.jpg"; sourceTree = "<group>"; };
+		EF5318CA23003D5300F3680C /* シャバーニ.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "シャバーニ.jpg"; sourceTree = "<group>"; };
+		EF5318CB23003D5300F3680C /* ショウ.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "ショウ.jpg"; sourceTree = "<group>"; };
+		EF5318CC23003D5300F3680C /* モンタ.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "モンタ.jpg"; sourceTree = "<group>"; };
+		EF5318CD23003D5300F3680C /* キヨマサ.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "キヨマサ.jpg"; sourceTree = "<group>"; };
+		EF5318CE23003D5300F3680C /* モモタロウ.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "モモタロウ.jpg"; sourceTree = "<group>"; };
+		EF5318CF23003D5300F3680C /* トト.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "トト.jpg"; sourceTree = "<group>"; };
+		EF5318D123003D5300F3680C /* albumGorilla40.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = albumGorilla40.jpg; sourceTree = "<group>"; };
+		EF5318D223003D5300F3680C /* albumGorilla54.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = albumGorilla54.jpg; sourceTree = "<group>"; };
+		EF5318D323003D5300F3680C /* albumGorilla68.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = albumGorilla68.jpg; sourceTree = "<group>"; };
+		EF5318D423003D5300F3680C /* albumGorilla69.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = albumGorilla69.jpg; sourceTree = "<group>"; };
+		EF5318D523003D5300F3680C /* albumGorilla55.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = albumGorilla55.jpg; sourceTree = "<group>"; };
+		EF5318D623003D5300F3680C /* albumGorilla41.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = albumGorilla41.jpg; sourceTree = "<group>"; };
+		EF5318D723003D5300F3680C /* albumGorilla57.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = albumGorilla57.jpg; sourceTree = "<group>"; };
+		EF5318D823003D5300F3680C /* albumGorilla43.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = albumGorilla43.jpg; sourceTree = "<group>"; };
+		EF5318D923003D5300F3680C /* albumGorilla42.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = albumGorilla42.jpg; sourceTree = "<group>"; };
+		EF5318DA23003D5300F3680C /* albumGorilla56.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = albumGorilla56.jpg; sourceTree = "<group>"; };
+		EF5318DB23003D5300F3680C /* albumGorilla52.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = albumGorilla52.jpg; sourceTree = "<group>"; };
+		EF5318DC23003D5300F3680C /* albumGorilla46.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = albumGorilla46.jpg; sourceTree = "<group>"; };
+		EF5318DD23003D5300F3680C /* albumGorilla47.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = albumGorilla47.jpg; sourceTree = "<group>"; };
+		EF5318DE23003D5300F3680C /* albumGorilla53.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = albumGorilla53.jpg; sourceTree = "<group>"; };
+		EF5318DF23003D5300F3680C /* albumGorilla45.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = albumGorilla45.jpg; sourceTree = "<group>"; };
+		EF5318E023003D5300F3680C /* albumGorilla51.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = albumGorilla51.jpg; sourceTree = "<group>"; };
+		EF5318E123003D5300F3680C /* albumGorilla50.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = albumGorilla50.jpg; sourceTree = "<group>"; };
+		EF5318E223003D5300F3680C /* albumGorilla44.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = albumGorilla44.jpg; sourceTree = "<group>"; };
+		EF5318E323003D5300F3680C /* albumGorilla3.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = albumGorilla3.jpg; sourceTree = "<group>"; };
+		EF5318E423003D5300F3680C /* albumGorilla23.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = albumGorilla23.jpg; sourceTree = "<group>"; };
+		EF5318E523003D5300F3680C /* albumGorilla37.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = albumGorilla37.jpg; sourceTree = "<group>"; };
+		EF5318E623003D5300F3680C /* albumGorilla36.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = albumGorilla36.jpg; sourceTree = "<group>"; };
+		EF5318E723003D5300F3680C /* albumGorilla22.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = albumGorilla22.jpg; sourceTree = "<group>"; };
+		EF5318E823003D5300F3680C /* albumGorilla2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = albumGorilla2.jpg; sourceTree = "<group>"; };
+		EF5318E923003D5300F3680C /* albumGorilla34.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = albumGorilla34.jpg; sourceTree = "<group>"; };
+		EF5318EA23003D5300F3680C /* albumGorilla20.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = albumGorilla20.jpg; sourceTree = "<group>"; };
+		EF5318EB23003D5300F3680C /* albumGorilla21.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = albumGorilla21.jpg; sourceTree = "<group>"; };
+		EF5318EC23003D5300F3680C /* albumGorilla35.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = albumGorilla35.jpg; sourceTree = "<group>"; };
+		EF5318ED23003D5300F3680C /* albumGorilla1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = albumGorilla1.jpg; sourceTree = "<group>"; };
+		EF5318EE23003D5300F3680C /* albumGorilla5.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = albumGorilla5.jpg; sourceTree = "<group>"; };
+		EF5318EF23003D5300F3680C /* albumGorilla19.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = albumGorilla19.jpg; sourceTree = "<group>"; };
+		EF5318F023003D5300F3680C /* albumGorilla31.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = albumGorilla31.jpg; sourceTree = "<group>"; };
+		EF5318F123003D5300F3680C /* albumGorilla25.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = albumGorilla25.jpg; sourceTree = "<group>"; };
+		EF5318F223003D5300F3680C /* albumGorilla24.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = albumGorilla24.jpg; sourceTree = "<group>"; };
+		EF5318F323003D5300F3680C /* albumGorilla30.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = albumGorilla30.jpg; sourceTree = "<group>"; };
+		EF5318F423003D5300F3680C /* albumGorilla18.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = albumGorilla18.jpg; sourceTree = "<group>"; };
+		EF5318F523003D5300F3680C /* albumGorilla4.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = albumGorilla4.jpg; sourceTree = "<group>"; };
+		EF5318F623003D5300F3680C /* albumGorilla6.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = albumGorilla6.jpg; sourceTree = "<group>"; };
+		EF5318F723003D5300F3680C /* albumGorilla26.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = albumGorilla26.jpg; sourceTree = "<group>"; };
+		EF5318F823003D5300F3680C /* albumGorilla32.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = albumGorilla32.jpg; sourceTree = "<group>"; };
+		EF5318F923003D5300F3680C /* albumGorilla33.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = albumGorilla33.jpg; sourceTree = "<group>"; };
+		EF5318FA23003D5300F3680C /* albumGorilla27.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = albumGorilla27.jpg; sourceTree = "<group>"; };
+		EF5318FB23003D5300F3680C /* albumGorilla7.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = albumGorilla7.jpg; sourceTree = "<group>"; };
+		EF5318FC23003D5300F3680C /* albumGorilla16.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = albumGorilla16.jpg; sourceTree = "<group>"; };
+		EF5318FD23003D5300F3680C /* albumGorilla17.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = albumGorilla17.jpg; sourceTree = "<group>"; };
+		EF5318FE23003D5300F3680C /* albumGorilla9.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = albumGorilla9.jpg; sourceTree = "<group>"; };
+		EF5318FF23003D5300F3680C /* albumGorilla15.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = albumGorilla15.jpg; sourceTree = "<group>"; };
+		EF53190023003D5300F3680C /* albumGorilla29.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = albumGorilla29.jpg; sourceTree = "<group>"; };
+		EF53190123003D5300F3680C /* albumGorilla28.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = albumGorilla28.jpg; sourceTree = "<group>"; };
+		EF53190223003D5300F3680C /* albumGorilla14.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = albumGorilla14.jpg; sourceTree = "<group>"; };
+		EF53190323003D5300F3680C /* albumGorilla8.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = albumGorilla8.jpg; sourceTree = "<group>"; };
+		EF53190423003D5300F3680C /* albumGorilla38.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = albumGorilla38.jpg; sourceTree = "<group>"; };
+		EF53190523003D5300F3680C /* albumGorilla10.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = albumGorilla10.jpg; sourceTree = "<group>"; };
+		EF53190623003D5300F3680C /* albumGorilla11.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = albumGorilla11.jpg; sourceTree = "<group>"; };
+		EF53190723003D5300F3680C /* albumGorilla39.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = albumGorilla39.jpg; sourceTree = "<group>"; };
+		EF53190823003D5300F3680C /* albumGorilla13.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = albumGorilla13.jpg; sourceTree = "<group>"; };
+		EF53190923003D5300F3680C /* albumGorilla12.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = albumGorilla12.jpg; sourceTree = "<group>"; };
+		EF53190A23003D5300F3680C /* albumGorilla61.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = albumGorilla61.jpg; sourceTree = "<group>"; };
+		EF53190B23003D5300F3680C /* albumGorilla75.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = albumGorilla75.jpg; sourceTree = "<group>"; };
+		EF53190C23003D5300F3680C /* albumGorilla49.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = albumGorilla49.jpg; sourceTree = "<group>"; };
+		EF53190D23003D5300F3680C /* albumGorilla48.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = albumGorilla48.jpg; sourceTree = "<group>"; };
+		EF53190E23003D5300F3680C /* albumGorilla74.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = albumGorilla74.jpg; sourceTree = "<group>"; };
+		EF53190F23003D5300F3680C /* albumGorilla60.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = albumGorilla60.jpg; sourceTree = "<group>"; };
+		EF53191023003D5300F3680C /* albumGorilla62.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = albumGorilla62.jpg; sourceTree = "<group>"; };
+		EF53191123003D5300F3680C /* albumGorilla63.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = albumGorilla63.jpg; sourceTree = "<group>"; };
+		EF53191223003D5300F3680C /* albumGorilla73.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = albumGorilla73.jpg; sourceTree = "<group>"; };
+		EF53191323003D5300F3680C /* albumGorilla67.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = albumGorilla67.jpg; sourceTree = "<group>"; };
+		EF53191423003D5300F3680C /* albumGorilla66.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = albumGorilla66.jpg; sourceTree = "<group>"; };
+		EF53191523003D5300F3680C /* albumGorilla72.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = albumGorilla72.jpg; sourceTree = "<group>"; };
+		EF53191623003D5300F3680C /* albumGorilla58.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = albumGorilla58.jpg; sourceTree = "<group>"; };
+		EF53191723003D5300F3680C /* albumGorilla64.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = albumGorilla64.jpg; sourceTree = "<group>"; };
+		EF53191823003D5300F3680C /* albumGorilla70.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = albumGorilla70.jpg; sourceTree = "<group>"; };
+		EF53191923003D5300F3680C /* albumGorilla71.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = albumGorilla71.jpg; sourceTree = "<group>"; };
+		EF53191A23003D5300F3680C /* albumGorilla65.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = albumGorilla65.jpg; sourceTree = "<group>"; };
+		EF53191B23003D5300F3680C /* albumGorilla59.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = albumGorilla59.jpg; sourceTree = "<group>"; };
+		EF53191D23003D5300F3680C /* シャバーニインスタ.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "シャバーニインスタ.jpg"; sourceTree = "<group>"; };
+		EF53191E23003D5300F3680C /* IMG_2529.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = IMG_2529.jpg; sourceTree = "<group>"; };
+		EF53191F23003D5300F3680C /* IMG_2528.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = IMG_2528.jpg; sourceTree = "<group>"; };
+		EF53192023003D5300F3680C /* IMG_2523.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = IMG_2523.jpg; sourceTree = "<group>"; };
+		EF53192123003D5300F3680C /* syoImage.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = syoImage.jpg; sourceTree = "<group>"; };
+		EF53192223003D5300F3680C /* IMG_23961.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = IMG_23961.jpg; sourceTree = "<group>"; };
+		EF53192323003D5300F3680C /* IMG_2530.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = IMG_2530.jpg; sourceTree = "<group>"; };
+		EF53192423003D5300F3680C /* IMG_2526.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = IMG_2526.jpg; sourceTree = "<group>"; };
+		EF53192623003D5300F3680C /* ゴリラ5.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "ゴリラ5.jpeg"; sourceTree = "<group>"; };
+		EF53192723003D5300F3680C /* GorillaStomach.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = GorillaStomach.jpg; sourceTree = "<group>"; };
+		EF53192823003D5300F3680C /* warpaint-press-knockout-dribble.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "warpaint-press-knockout-dribble.jpg"; sourceTree = "<group>"; };
+		EF53192923003D5300F3680C /* ゴリラ9.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "ゴリラ9.jpeg"; sourceTree = "<group>"; };
+		EF53192A23003D5300F3680C /* イケメンゴリラ写真集.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "イケメンゴリラ写真集.jpg"; sourceTree = "<group>"; };
+		EF53192B23003D5300F3680C /* apes.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = apes.jpg; sourceTree = "<group>"; };
+		EF53192C23003D5300F3680C /* ゴリラ8.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "ゴリラ8.jpeg"; sourceTree = "<group>"; };
+		EF53192D23003D5300F3680C /* ape2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ape2.png; sourceTree = "<group>"; };
+		EF53192E23003D5300F3680C /* ゴリラ4.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "ゴリラ4.jpeg"; sourceTree = "<group>"; };
+		EF53192F23003D5300F3680C /* xingxing400300.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = xingxing400300.jpg; sourceTree = "<group>"; };
+		EF53193023003D5300F3680C /* donkey_kong-01.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "donkey_kong-01.png"; sourceTree = "<group>"; };
+		EF53193123003D5300F3680C /* GentleGorilla.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = GentleGorilla.jpg; sourceTree = "<group>"; };
+		EF53193223003D5300F3680C /* ゴリラ3.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "ゴリラ3.jpeg"; sourceTree = "<group>"; };
+		EF53193323003D5300F3680C /* errol.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = errol.png; sourceTree = "<group>"; };
+		EF53193423003D5300F3680C /* ゴリラ11.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "ゴリラ11.jpeg"; sourceTree = "<group>"; };
+		EF53193523003D5300F3680C /* textme-17.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "textme-17.png"; sourceTree = "<group>"; };
+		EF53193623003D5300F3680C /* gorilla.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = gorilla.jpg; sourceTree = "<group>"; };
+		EF53193723003D5300F3680C /* ゴリラ10.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "ゴリラ10.jpeg"; sourceTree = "<group>"; };
+		EF53193823003D5300F3680C /* ゴリラを見る俺.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "ゴリラを見る俺.jpg"; sourceTree = "<group>"; };
+		EF53193923003D5300F3680C /* gorillove_dribbble_1x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = gorillove_dribbble_1x.png; sourceTree = "<group>"; };
+		EF53193A23003D5400F3680C /* phonerillaz.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = phonerillaz.jpg; sourceTree = "<group>"; };
+		EF53193B23003D5400F3680C /* ゴリラ2.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "ゴリラ2.jpeg"; sourceTree = "<group>"; };
+		EF53193C23003D5400F3680C /* ゴリラスタンプ.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "ゴリラスタンプ.jpeg"; sourceTree = "<group>"; };
+		EF53193D23003D5400F3680C /* 上野動物園のゴリラ.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "上野動物園のゴリラ.jpeg"; sourceTree = "<group>"; };
+		EF53193E23003D5400F3680C /* gorilla-1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "gorilla-1.jpg"; sourceTree = "<group>"; };
+		EF53193F23003D5400F3680C /* gorilla-lowpoly_dribbble.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "gorilla-lowpoly_dribbble.png"; sourceTree = "<group>"; };
+		EF53194023003D5400F3680C /* gorilla-1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "gorilla-1.png"; sourceTree = "<group>"; };
+		EF53194123003D5400F3680C /* gorilla_dr.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = gorilla_dr.png; sourceTree = "<group>"; };
+		EF53194223003D5400F3680C /* ゴリラAppアイコン用.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "ゴリラAppアイコン用.jpeg"; sourceTree = "<group>"; };
+		EF53194323003D5400F3680C /* greyscalgorilla.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = greyscalgorilla.jpg; sourceTree = "<group>"; };
+		EF53194423003D5400F3680C /* Knucklewalking.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Knucklewalking.jpeg; sourceTree = "<group>"; };
+		EF53194523003D5400F3680C /* ゴリラ1.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "ゴリラ1.jpeg"; sourceTree = "<group>"; };
+		EF53194623003D5400F3680C /* ________.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "________.png"; sourceTree = "<group>"; };
+		EF53194723003D5400F3680C /* ゴリラの寝姿.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "ゴリラの寝姿.jpg"; sourceTree = "<group>"; };
+		EF53194823003D5400F3680C /* GORILLA3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = GORILLA3.png; sourceTree = "<group>"; };
+		EF53194923003D5400F3680C /* ゴリラ7.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "ゴリラ7.jpeg"; sourceTree = "<group>"; };
+		EF53194A23003D5400F3680C /* GORILLA2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = GORILLA2.png; sourceTree = "<group>"; };
+		EF53194B23003D5400F3680C /* 切り取りcuteGorilola.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "切り取りcuteGorilola.png"; sourceTree = "<group>"; };
+		EF53194C23003D5400F3680C /* GORILLA1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = GORILLA1.png; sourceTree = "<group>"; };
+		EF53194D23003D5400F3680C /* gorilla-dribble.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "gorilla-dribble.jpg"; sourceTree = "<group>"; };
+		EF53194E23003D5400F3680C /* GORILLAImage.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = GORILLAImage.jpg; sourceTree = "<group>"; };
+		EF53194F23003D5400F3680C /* GORILLA5.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = GORILLA5.png; sourceTree = "<group>"; };
+		EF53195023003D5400F3680C /* GORILLA4.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = GORILLA4.jpg; sourceTree = "<group>"; };
+		EF53195123003D5400F3680C /* images.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = images.png; sourceTree = "<group>"; };
+		EF53195223003D5400F3680C /* GentleGorillaAppLabel.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = GentleGorillaAppLabel.png; sourceTree = "<group>"; };
+		EF53195323003D5400F3680C /* GORILLA6.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = GORILLA6.png; sourceTree = "<group>"; };
+		EF53195423003D5400F3680C /* ゴリラ6.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "ゴリラ6.jpeg"; sourceTree = "<group>"; };
+		EF53195523003D5400F3680C /* GorillaLogic.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = GorillaLogic.jpg; sourceTree = "<group>"; };
+		EF53195623003D5400F3680C /* bad_monkey.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = bad_monkey.jpg; sourceTree = "<group>"; };
+		EF53195723003D5400F3680C /* GORILLA7.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = GORILLA7.jpg; sourceTree = "<group>"; };
+		EF53195923003D5400F3680C /* MountainGorilla.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = MountainGorilla.jpeg; sourceTree = "<group>"; };
+		EF53195A23003D5400F3680C /* HigashiRolandGorilla.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = HigashiRolandGorilla.jpeg; sourceTree = "<group>"; };
+		EF53195B23003D5400F3680C /* NishiRolandGorilla.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = NishiRolandGorilla.jpeg; sourceTree = "<group>"; };
+		EF53195E23003D5400F3680C /* Icon-App-57x57@1x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-App-57x57@1x.png"; sourceTree = "<group>"; };
+		EF53195F23003D5400F3680C /* Icon-App-76x76@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-App-76x76@2x.png"; sourceTree = "<group>"; };
+		EF53196023003D5400F3680C /* Icon-App-29x29@1x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-App-29x29@1x.png"; sourceTree = "<group>"; };
+		EF53196123003D5400F3680C /* Icon-App-60x60@1x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-App-60x60@1x.png"; sourceTree = "<group>"; };
+		EF53196223003D5400F3680C /* Icon-Small-50x50@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-Small-50x50@2x.png"; sourceTree = "<group>"; };
+		EF53196323003D5400F3680C /* Icon-App-40x40@1x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-App-40x40@1x.png"; sourceTree = "<group>"; };
+		EF53196423003D5400F3680C /* Icon-App-76x76@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-App-76x76@3x.png"; sourceTree = "<group>"; };
+		EF53196523003D5400F3680C /* Icon-App-72x72@1x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-App-72x72@1x.png"; sourceTree = "<group>"; };
+		EF53196623003D5400F3680C /* Icon-App-20x20@1x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-App-20x20@1x.png"; sourceTree = "<group>"; };
+		EF53196723003D5400F3680C /* Icon-App-83.5x83.5@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-App-83.5x83.5@2x.png"; sourceTree = "<group>"; };
+		EF53196823003D5400F3680C /* Icon-App-20x20@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-App-20x20@3x.png"; sourceTree = "<group>"; };
+		EF53196923003D5400F3680C /* Icon-App-20x20@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-App-20x20@2x.png"; sourceTree = "<group>"; };
+		EF53196A23003D5400F3680C /* Icon-App-29x29@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-App-29x29@3x.png"; sourceTree = "<group>"; };
+		EF53196B23003D5400F3680C /* Icon-App-40x40@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-App-40x40@2x.png"; sourceTree = "<group>"; };
+		EF53196C23003D5400F3680C /* Icon-App-72x72@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-App-72x72@2x.png"; sourceTree = "<group>"; };
+		EF53196D23003D5400F3680C /* Icon-App-60x60@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-App-60x60@3x.png"; sourceTree = "<group>"; };
+		EF53196E23003D5400F3680C /* Icon-Small-50x50@1x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-Small-50x50@1x.png"; sourceTree = "<group>"; };
+		EF53196F23003D5400F3680C /* Icon-App-60x60@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-App-60x60@2x.png"; sourceTree = "<group>"; };
+		EF53197023003D5400F3680C /* Icon-App-57x57@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-App-57x57@2x.png"; sourceTree = "<group>"; };
+		EF53197123003D5400F3680C /* Icon-App-76x76@1x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-App-76x76@1x.png"; sourceTree = "<group>"; };
+		EF53197223003D5400F3680C /* Icon-App-40x40@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-App-40x40@3x.png"; sourceTree = "<group>"; };
+		EF53197323003D5400F3680C /* Icon-App-29x29@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-App-29x29@2x.png"; sourceTree = "<group>"; };
+		EF53197423003D5400F3680C /* iTunesArtwork@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "iTunesArtwork@2x.png"; sourceTree = "<group>"; };
+		EF53197523003D5400F3680C /* Congratulations-Pic.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Congratulations-Pic.png"; sourceTree = "<group>"; };
+		EF53197723003D5400F3680C /* stop.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = stop.png; sourceTree = "<group>"; };
+		EF53197823003D5400F3680C /* チューリップゴリラ.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "チューリップゴリラ.png"; sourceTree = "<group>"; };
+		EF53197923003D5400F3680C /* bang.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = bang.png; sourceTree = "<group>"; };
+		EF53197A23003D5400F3680C /* 赤ちゃんゴリラ.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "赤ちゃんゴリラ.jpg"; sourceTree = "<group>"; };
+		EF53197B23003D5400F3680C /* babyGorilla.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = babyGorilla.jpg; sourceTree = "<group>"; };
+		EF53197C23003D5400F3680C /* gorillahand.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = gorillahand.jpg; sourceTree = "<group>"; };
+		EF53197D23003D5400F3680C /* cancel.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = cancel.jpg; sourceTree = "<group>"; };
+		EF53197E23003D5400F3680C /* 水浴びゴリラ.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "水浴びゴリラ.png"; sourceTree = "<group>"; };
+		EF53197F23003D5400F3680C /* dangerGorilla.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = dangerGorilla.jpg; sourceTree = "<group>"; };
+		EF53198023003D5400F3680C /* quarrel.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = quarrel.jpg; sourceTree = "<group>"; };
+		EF53198123003D5400F3680C /* Handstand.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Handstand.jpg; sourceTree = "<group>"; };
+		EF53198223003D5400F3680C /* ゴリラに襲われる.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "ゴリラに襲われる.jpg"; sourceTree = "<group>"; };
+		EF53198323003D5400F3680C /* gorillabro.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = gorillabro.png; sourceTree = "<group>"; };
+		EF53198423003D5400F3680C /* hamadaGorilla.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = hamadaGorilla.jpg; sourceTree = "<group>"; };
+		EF53198523003D5400F3680C /* drumming.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = drumming.jpg; sourceTree = "<group>"; };
+		EF53198623003D5400F3680C /* ゴリラアイコン1.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "ゴリラアイコン1.jpeg"; sourceTree = "<group>"; };
+		EF53198723003D5400F3680C /* ゴリラアイコン2.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "ゴリラアイコン2.jpeg"; sourceTree = "<group>"; };
+		EF53198823003D5400F3680C /* walkingGorilla.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = walkingGorilla.jpg; sourceTree = "<group>"; };
+		EF53198923003D5400F3680C /* グラブルゴリラ.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "グラブルゴリラ.jpg"; sourceTree = "<group>"; };
+		EF53198A23003D5400F3680C /* angry.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = angry.jpg; sourceTree = "<group>"; };
+		EF53198B23003D5400F3680C /* go.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = go.png; sourceTree = "<group>"; };
+		EF53198C23003D5400F3680C /* modoru.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = modoru.png; sourceTree = "<group>"; };
+		EF53198D23003D5400F3680C /* NEWSのイラスト素材.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "NEWSのイラスト素材.jpeg"; sourceTree = "<group>"; };
+		EF53198E23003D5400F3680C /* susumu.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = susumu.png; sourceTree = "<group>"; };
+		EF53198F23003D5400F3680C /* infoButton.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = infoButton.png; sourceTree = "<group>"; };
+		EF53199023003D5400F3680C /* wild.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = wild.jpg; sourceTree = "<group>"; };
+		EF53199123003D5400F3680C /* booger.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = booger.jpg; sourceTree = "<group>"; };
+		EF53199223003D5400F3680C /* gorilla2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = gorilla2.jpg; sourceTree = "<group>"; };
+		EF53199323003D5400F3680C /* toilet.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = toilet.jpg; sourceTree = "<group>"; };
+		EF53199423003D5400F3680C /* backtoPage.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = backtoPage.png; sourceTree = "<group>"; };
+		EF53199523003D5400F3680C /* placeholderImage.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = placeholderImage.jpg; sourceTree = "<group>"; };
+		EF53199623003D5400F3680C /* back.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = back.png; sourceTree = "<group>"; };
+		EF53199723003D5400F3680C /* start.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = start.png; sourceTree = "<group>"; };
+		EF531AB723003EE600F3680C /* ZinHenaBokuryu-RCF.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "ZinHenaBokuryu-RCF.otf"; sourceTree = "<group>"; };
+		EF531ABB23003F4000F3680C /* DotsLoader.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DotsLoader.swift; sourceTree = "<group>"; };
+		EF531ABC23003F4000F3680C /* CustomButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomButton.swift; sourceTree = "<group>"; };
+		EF531ABD23003F4000F3680C /* CAPSPageMenu.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CAPSPageMenu.swift; sourceTree = "<group>"; };
+		EF531ABE23003F4000F3680C /* SweetAlert.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SweetAlert.swift; sourceTree = "<group>"; };
+		EF531AC423003F8500F3680C /* ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		EF531AC523003F8500F3680C /* QuizTestViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = QuizTestViewController.swift; sourceTree = "<group>"; };
+		EF531AC623003F8500F3680C /* QuizHomeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = QuizHomeViewController.swift; sourceTree = "<group>"; };
+		EF531AC723003F8500F3680C /* Quiz.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Quiz.swift; sourceTree = "<group>"; };
+		EF531ACD23003F9200F3680C /* DetailAlbumViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DetailAlbumViewController.swift; sourceTree = "<group>"; };
+		EF531ACE23003F9200F3680C /* AlbumViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AlbumViewController.swift; sourceTree = "<group>"; };
+		EF531ACF23003F9200F3680C /* MamechishikiButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MamechishikiButton.swift; sourceTree = "<group>"; };
+		EF531AD523003F9C00F3680C /* SyoViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SyoViewController.swift; sourceTree = "<group>"; };
+		EF531AD623003F9C00F3680C /* HamamatsuViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HamamatsuViewController.swift; sourceTree = "<group>"; };
+		EF531AD823003F9C00F3680C /* MontaViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MontaViewController.swift; sourceTree = "<group>"; };
+		EF531AD923003F9C00F3680C /* RolaViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RolaViewController.swift; sourceTree = "<group>"; };
+		EF531ADA23003F9C00F3680C /* ChibaViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ChibaViewController.swift; sourceTree = "<group>"; };
+		EF531ADC23003F9C00F3680C /* MonkeyCenterViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MonkeyCenterViewController.swift; sourceTree = "<group>"; };
+		EF531ADD23003F9C00F3680C /* TaroViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TaroViewController.swift; sourceTree = "<group>"; };
+		EF531ADE23003F9C00F3680C /* GorillaMapViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GorillaMapViewController.swift; sourceTree = "<group>"; };
+		EF531AE023003F9C00F3680C /* SendaiViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SendaiViewController.swift; sourceTree = "<group>"; };
+		EF531AE123003F9C00F3680C /* DonViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DonViewController.swift; sourceTree = "<group>"; };
+		EF531AE223003F9C00F3680C /* DetailSmartGorillaViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DetailSmartGorillaViewController.swift; sourceTree = "<group>"; };
+		EF531AE323003F9C00F3680C /* SmartGorillaTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SmartGorillaTableViewCell.xib; sourceTree = "<group>"; };
+		EF531AE423003F9C00F3680C /* SmartGorillaViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SmartGorillaViewController.swift; sourceTree = "<group>"; };
+		EF531AE523003F9C00F3680C /* Left.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Left.storyboard; sourceTree = "<group>"; };
+		EF531AE623003F9C00F3680C /* SmartGorillaTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SmartGorillaTableViewCell.swift; sourceTree = "<group>"; };
+		EF531AE823003F9C00F3680C /* KyotoViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KyotoViewController.swift; sourceTree = "<group>"; };
+		EF531AE923003F9C00F3680C /* GentaroViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GentaroViewController.swift; sourceTree = "<group>"; };
+		EF531AEA23003F9C00F3680C /* MomotaroViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MomotaroViewController.swift; sourceTree = "<group>"; };
+		EF531AEB23003F9C00F3680C /* GenkiViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GenkiViewController.swift; sourceTree = "<group>"; };
+		EF531AED23003F9C00F3680C /* UenoViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UenoViewController.swift; sourceTree = "<group>"; };
+		EF531AEE23003F9C00F3680C /* JapanMapViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JapanMapViewController.swift; sourceTree = "<group>"; };
+		EF531AF023003F9C00F3680C /* AniViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AniViewController.swift; sourceTree = "<group>"; };
+		EF531AF123003F9C00F3680C /* HigashiyamaViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HigashiyamaViewController.swift; sourceTree = "<group>"; };
+		EF531AF223003F9C00F3680C /* SyabaniViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SyabaniViewController.swift; sourceTree = "<group>"; };
+		EF531AF323003F9C00F3680C /* AiViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AiViewController.swift; sourceTree = "<group>"; };
+		EF531AF423003F9C00F3680C /* KiyomasaViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KiyomasaViewController.swift; sourceTree = "<group>"; };
+		EF531AF523003F9C00F3680C /* NeneViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NeneViewController.swift; sourceTree = "<group>"; };
+		EF531B1223003FA300F3680C /* GorillaListTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = GorillaListTableViewCell.xib; sourceTree = "<group>"; };
+		EF531B1323003FA300F3680C /* GorillaListViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GorillaListViewController.swift; sourceTree = "<group>"; };
+		EF531B1423003FA300F3680C /* DetailGorillaListViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DetailGorillaListViewController.swift; sourceTree = "<group>"; };
+		EF531B1523003FA300F3680C /* GorillaListTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GorillaListTableViewCell.swift; sourceTree = "<group>"; };
+		EF531B1623003FA300F3680C /* GorillaDetailImageViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GorillaDetailImageViewController.swift; sourceTree = "<group>"; };
+		EF531B1D23003FAC00F3680C /* PagingViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PagingViewController.swift; sourceTree = "<group>"; };
+		EF531B1E23003FAC00F3680C /* NewsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NewsViewController.swift; sourceTree = "<group>"; };
+		EF531B1F23003FAC00F3680C /* BiglobeNewsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BiglobeNewsViewController.swift; sourceTree = "<group>"; };
+		EF531B2023003FAC00F3680C /* MyGorillaNewsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MyGorillaNewsViewController.swift; sourceTree = "<group>"; };
+		EF531B2123003FAC00F3680C /* GorillaMovieViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GorillaMovieViewController.swift; sourceTree = "<group>"; };
+		EF531B2823003FC400F3680C /* FrontViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FrontViewController.swift; sourceTree = "<group>"; };
+		EF531B2923003FC400F3680C /* EnterGorillaViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EnterGorillaViewController.swift; sourceTree = "<group>"; };
+		EF531B2A23003FC400F3680C /* TabBarController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TabBarController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,17 +691,37 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				29B94E241E33033F41376938 /* Pods_GorillaGorillaGorilla.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		419FA2C7E8A50DD4F0BBA412 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				051B6CF094CA270C14585580 /* Pods-GorillaGorillaGorilla.debug.xcconfig */,
+				6A26FE2C0242D6B6A398BB08 /* Pods-GorillaGorillaGorilla.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		572B3DDBD0A25C2177FB3D3C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				2178F37BB18B80C7563786B4 /* Pods_GorillaGorillaGorilla.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		EF5315E823003A5900F3680C = {
 			isa = PBXGroup;
 			children = (
 				EF5315F323003A5900F3680C /* GorillaGorillaGorilla */,
 				EF5315F223003A5900F3680C /* Products */,
+				419FA2C7E8A50DD4F0BBA412 /* Pods */,
+				572B3DDBD0A25C2177FB3D3C /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -56,15 +736,752 @@
 		EF5315F323003A5900F3680C /* GorillaGorillaGorilla */ = {
 			isa = PBXGroup;
 			children = (
-				EF5315F423003A5900F3680C /* AppDelegate.swift */,
-				EF5315F623003A5A00F3680C /* ViewController.swift */,
-				EF5315F823003A5A00F3680C /* Main.storyboard */,
-				EF5315FE23003A5B00F3680C /* Assets.xcassets */,
+				EF53160C23003A8600F3680C /* Resources */,
+				EF53161023003B3700F3680C /* FrameWorkDriver */,
+				EF53160F23003B1C00F3680C /* InterfaceAdapter */,
+				EF53160E23003B0F00F3680C /* Use Case */,
+				EF53160D23003B0700F3680C /* Entity */,
 				EF53160023003A5B00F3680C /* LaunchScreen.storyboard */,
 				EF53160323003A5B00F3680C /* Info.plist */,
 				EF5315FB23003A5A00F3680C /* GorillaGorillaGorilla.xcdatamodeld */,
 			);
 			path = GorillaGorillaGorilla;
+			sourceTree = "<group>";
+		};
+		EF53160923003A6D00F3680C /* UI */ = {
+			isa = PBXGroup;
+			children = (
+				EF5315F623003A5A00F3680C /* ViewController.swift */,
+				EF5315F823003A5A00F3680C /* Main.storyboard */,
+				EF531B2723003FC400F3680C /* FrontFile */,
+				EF531AC323003F8500F3680C /* QuizFile */,
+				EF531ACC23003F9200F3680C /* KnowledgeFile */,
+				EF531AD323003F9C00F3680C /* Gorilla MapFile */,
+				EF531B1123003FA300F3680C /* GorillaListFile */,
+				EF531B1C23003FAC00F3680C /* GorillaNewsFile */,
+			);
+			path = UI;
+			sourceTree = "<group>";
+		};
+		EF53160A23003A7800F3680C /* Data */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Data;
+			sourceTree = "<group>";
+		};
+		EF53160B23003A7C00F3680C /* Domain */ = {
+			isa = PBXGroup;
+			children = (
+				EF531ABA23003F4000F3680C /* Model */,
+			);
+			path = Domain;
+			sourceTree = "<group>";
+		};
+		EF53160C23003A8600F3680C /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				EF5315FE23003A5B00F3680C /* Assets.xcassets */,
+				EF53161A23003C6C00F3680C /* Icon */,
+				EF53161923003C6300F3680C /* Font */,
+				EF53161823003C5E00F3680C /* GIF */,
+				EF53186923003D5300F3680C /* Images */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		EF53160D23003B0700F3680C /* Entity */ = {
+			isa = PBXGroup;
+			children = (
+				EF53160A23003A7800F3680C /* Data */,
+			);
+			path = Entity;
+			sourceTree = "<group>";
+		};
+		EF53160E23003B0F00F3680C /* Use Case */ = {
+			isa = PBXGroup;
+			children = (
+				EF53161123003B8100F3680C /* Application */,
+				EF53160B23003A7C00F3680C /* Domain */,
+			);
+			path = "Use Case";
+			sourceTree = "<group>";
+		};
+		EF53160F23003B1C00F3680C /* InterfaceAdapter */ = {
+			isa = PBXGroup;
+			children = (
+				EF53161523003C3500F3680C /* Presenter */,
+				EF53161623003C3E00F3680C /* Gateway */,
+			);
+			path = InterfaceAdapter;
+			sourceTree = "<group>";
+		};
+		EF53161023003B3700F3680C /* FrameWorkDriver */ = {
+			isa = PBXGroup;
+			children = (
+				EF53160923003A6D00F3680C /* UI */,
+				EF53161323003BF400F3680C /* DB */,
+				EF53161223003BD200F3680C /* Device */,
+				EF53161423003C0100F3680C /* API */,
+			);
+			path = FrameWorkDriver;
+			sourceTree = "<group>";
+		};
+		EF53161123003B8100F3680C /* Application */ = {
+			isa = PBXGroup;
+			children = (
+				EF5315F423003A5900F3680C /* AppDelegate.swift */,
+			);
+			path = Application;
+			sourceTree = "<group>";
+		};
+		EF53161223003BD200F3680C /* Device */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Device;
+			sourceTree = "<group>";
+		};
+		EF53161323003BF400F3680C /* DB */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = DB;
+			sourceTree = "<group>";
+		};
+		EF53161423003C0100F3680C /* API */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = API;
+			sourceTree = "<group>";
+		};
+		EF53161523003C3500F3680C /* Presenter */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Presenter;
+			sourceTree = "<group>";
+		};
+		EF53161623003C3E00F3680C /* Gateway */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Gateway;
+			sourceTree = "<group>";
+		};
+		EF53161823003C5E00F3680C /* GIF */ = {
+			isa = PBXGroup;
+			children = (
+				EF53189323003D5300F3680C /* sideMenu.gif */,
+				EF5318A823003D5300F3680C /* gifGorilla */,
+			);
+			path = GIF;
+			sourceTree = "<group>";
+		};
+		EF53161923003C6300F3680C /* Font */ = {
+			isa = PBXGroup;
+			children = (
+				EF53186723003D2900F3680C /* なきむしポルカFREE.otf */,
+				EF531AB723003EE600F3680C /* ZinHenaBokuryu-RCF.otf */,
+			);
+			path = Font;
+			sourceTree = "<group>";
+		};
+		EF53161A23003C6C00F3680C /* Icon */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Icon;
+			sourceTree = "<group>";
+		};
+		EF53186923003D5300F3680C /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				EF53188723003D5300F3680C /* placeholder */,
+				EF53186C23003D5300F3680C /* WebView */,
+				EF53188B23003D5300F3680C /* Zoo */,
+				EF531AB523003E0800F3680C /* Quiz */,
+				EF53187C23003D5300F3680C /* background */,
+				EF53197623003D5400F3680C /* NewsContents */,
+				EF5318A423003D5300F3680C /* GorillaImages */,
+				EF531AB623003EA300F3680C /* Banana */,
+				EF53189423003D5300F3680C /* tabIcon */,
+			);
+			name = Images;
+			path = Images/Images;
+			sourceTree = "<group>";
+		};
+		EF53186C23003D5300F3680C /* WebView */ = {
+			isa = PBXGroup;
+			children = (
+				EF53187323003D5300F3680C /* cancel.jpeg */,
+				EF53187523003D5300F3680C /* go.jpg */,
+				EF53187823003D5300F3680C /* back.jpg */,
+			);
+			path = WebView;
+			sourceTree = "<group>";
+		};
+		EF53187C23003D5300F3680C /* background */ = {
+			isa = PBXGroup;
+			children = (
+				EF53188123003D5300F3680C /* JapanMapImage.jpg */,
+				EF53187D23003D5300F3680C /* backgroundImage1.jpg */,
+				EF53187E23003D5300F3680C /* backgroundImage2.jpg */,
+				EF53187F23003D5300F3680C /* backgroundImage3.jpg */,
+				EF53188023003D5300F3680C /* backgroundImage4.jpg */,
+				EF53188223003D5300F3680C /* backgroundImage5.jpg */,
+				EF53188323003D5300F3680C /* backgroundImage6.jpg */,
+				EF53188423003D5300F3680C /* backgroundImage7.jpg */,
+			);
+			path = background;
+			sourceTree = "<group>";
+		};
+		EF53188723003D5300F3680C /* placeholder */ = {
+			isa = PBXGroup;
+			children = (
+				EF53188623003D5300F3680C /* nagaiyuki.png */,
+				EF53188823003D5300F3680C /* placeholder.png */,
+				EF53188923003D5300F3680C /* LoginViewImage.png */,
+				EF53188A23003D5300F3680C /* placeholderImage.png */,
+			);
+			path = placeholder;
+			sourceTree = "<group>";
+		};
+		EF53188B23003D5300F3680C /* Zoo */ = {
+			isa = PBXGroup;
+			children = (
+				EF53188C23003D5300F3680C /* chibashiZooImage.jpeg */,
+				EF53188D23003D5300F3680C /* higasiyamaZooImage.jpeg */,
+				EF53188E23003D5300F3680C /* yagiyamaZooImage.jpeg */,
+				EF53188F23003D5300F3680C /* kyotoZooImage.jpeg */,
+				EF53189023003D5300F3680C /* hamamatsuZooImage.jpeg */,
+				EF53189123003D5300F3680C /* japanMonkeyCenterImage.jpeg */,
+				EF53189223003D5300F3680C /* uenoZooImage.jpg */,
+			);
+			path = Zoo;
+			sourceTree = "<group>";
+		};
+		EF53189423003D5300F3680C /* tabIcon */ = {
+			isa = PBXGroup;
+			children = (
+				EF53189523003D5300F3680C /* news.png */,
+				EF53189623003D5300F3680C /* hightlightList.png */,
+				EF53189723003D5300F3680C /* knowledge.png */,
+				EF53189823003D5300F3680C /* tabQuiz.png */,
+				EF53189923003D5300F3680C /* Map.png */,
+				EF53189A23003D5300F3680C /* tabMemo.png */,
+				EF53189B23003D5300F3680C /* tabMap.png */,
+				EF53189C23003D5300F3680C /* hightlightknowledge.png */,
+				EF53189D23003D5300F3680C /* hightlightNews.png */,
+				EF53189E23003D5300F3680C /* list.png */,
+				EF53189F23003D5300F3680C /* hightlightQuiz.png */,
+				EF5318A023003D5300F3680C /* hightlightMap.png */,
+				EF5318A123003D5300F3680C /* tabList.png */,
+				EF5318A223003D5300F3680C /* tabKnowledge.png */,
+				EF5318A323003D5300F3680C /* Quiz.png */,
+			);
+			path = tabIcon;
+			sourceTree = "<group>";
+		};
+		EF5318A423003D5300F3680C /* GorillaImages */ = {
+			isa = PBXGroup;
+			children = (
+				EF5318A523003D5300F3680C /* gorillaNews用 */,
+				EF5318AE23003D5300F3680C /* 全日本ゴリラリスト */,
+				EF5318D023003D5300F3680C /* AlbumGORILLAImgeas */,
+				EF53191C23003D5300F3680C /* InstaGorilla */,
+				EF53192523003D5300F3680C /* randomGorillaImages */,
+				EF53195823003D5400F3680C /* gorillaTypeImages */,
+				EF53195C23003D5400F3680C /* cuteGorillaImages */,
+			);
+			path = GorillaImages;
+			sourceTree = "<group>";
+		};
+		EF5318A523003D5300F3680C /* gorillaNews用 */ = {
+			isa = PBXGroup;
+			children = (
+				EF5318A623003D5300F3680C /* whiteGorilla.jpg */,
+				EF5318A723003D5300F3680C /* whiteGorilla.jpeg */,
+			);
+			path = "gorillaNews用";
+			sourceTree = "<group>";
+		};
+		EF5318A823003D5300F3680C /* gifGorilla */ = {
+			isa = PBXGroup;
+			children = (
+				EF5318A923003D5300F3680C /* gorilla-dribbble.gif */,
+				EF5318AA23003D5300F3680C /* dribbblegorillagif3.gif */,
+				EF5318AB23003D5300F3680C /* dribbblegorillagif2.gif */,
+				EF5318AC23003D5300F3680C /* dribbblegorillagif1.gif */,
+				EF5318AD23003D5300F3680C /* 1_gorila_dribbble.gif */,
+			);
+			path = gifGorilla;
+			sourceTree = "<group>";
+		};
+		EF5318AE23003D5300F3680C /* 全日本ゴリラリスト */ = {
+			isa = PBXGroup;
+			children = (
+				EF5318AF23003D5300F3680C /* ゲンタロウ.jpg */,
+				EF5318B023003D5300F3680C /* アイ.jpg */,
+				EF5318B123003D5300F3680C /* ケンタ.jpg */,
+				EF5318B223003D5300F3680C /* ナナ.jpg */,
+				EF5318B323003D5300F3680C /* アニー.jpg */,
+				EF5318B423003D5300F3680C /* ハオコ.jpg */,
+				EF5318B523003D5300F3680C /* タロウ.jpg */,
+				EF5318B623003D5300F3680C /* ペイントゴリラたち */,
+				EF5318BF23003D5300F3680C /* ピンドン.jpg */,
+				EF5318C023003D5300F3680C /* モモカ.jpg */,
+				EF5318C123003D5300F3680C /* ゲンキ.jpg */,
+				EF5318C223003D5300F3680C /* ネネ.jpg */,
+				EF5318C323003D5300F3680C /* コモモ.jpg */,
+				EF5318C423003D5300F3680C /* ローラ.jpg */,
+				EF5318C523003D5300F3680C /* ムサシ.jpg */,
+				EF5318C623003D5300F3680C /* ドン.jpg */,
+				EF5318C723003D5300F3680C /* ピーコ.jpg */,
+				EF5318C823003D5300F3680C /* リキ.jpg */,
+				EF5318C923003D5300F3680C /* モモコ.jpg */,
+				EF5318CA23003D5300F3680C /* シャバーニ.jpg */,
+				EF5318CB23003D5300F3680C /* ショウ.jpg */,
+				EF5318CC23003D5300F3680C /* モンタ.jpg */,
+				EF5318CD23003D5300F3680C /* キヨマサ.jpg */,
+				EF5318CE23003D5300F3680C /* モモタロウ.jpg */,
+				EF5318CF23003D5300F3680C /* トト.jpg */,
+			);
+			path = "全日本ゴリラリスト";
+			sourceTree = "<group>";
+		};
+		EF5318B623003D5300F3680C /* ペイントゴリラたち */ = {
+			isa = PBXGroup;
+			children = (
+				EF5318B723003D5300F3680C /* ペイントコモモ.jpg */,
+				EF5318B823003D5300F3680C /* ペイントモモカ.jpg */,
+				EF5318B923003D5300F3680C /* ペイントハオコ.jpg */,
+				EF5318BA23003D5300F3680C /* ペイントナナ.jpg */,
+				EF5318BB23003D5300F3680C /* ペイントピーコ.jpg */,
+				EF5318BC23003D5300F3680C /* ペイントトト.jpg */,
+				EF5318BD23003D5300F3680C /* ペイントモモコ.jpg */,
+				EF5318BE23003D5300F3680C /* ペイントリキ.jpg */,
+			);
+			path = "ペイントゴリラたち";
+			sourceTree = "<group>";
+		};
+		EF5318D023003D5300F3680C /* AlbumGORILLAImgeas */ = {
+			isa = PBXGroup;
+			children = (
+				EF5318D123003D5300F3680C /* albumGorilla40.jpg */,
+				EF5318D223003D5300F3680C /* albumGorilla54.jpg */,
+				EF5318D323003D5300F3680C /* albumGorilla68.jpg */,
+				EF5318D423003D5300F3680C /* albumGorilla69.jpg */,
+				EF5318D523003D5300F3680C /* albumGorilla55.jpg */,
+				EF5318D623003D5300F3680C /* albumGorilla41.jpg */,
+				EF5318D723003D5300F3680C /* albumGorilla57.jpg */,
+				EF5318D823003D5300F3680C /* albumGorilla43.jpg */,
+				EF5318D923003D5300F3680C /* albumGorilla42.jpg */,
+				EF5318DA23003D5300F3680C /* albumGorilla56.jpg */,
+				EF5318DB23003D5300F3680C /* albumGorilla52.jpg */,
+				EF5318DC23003D5300F3680C /* albumGorilla46.jpg */,
+				EF5318DD23003D5300F3680C /* albumGorilla47.jpg */,
+				EF5318DE23003D5300F3680C /* albumGorilla53.jpg */,
+				EF5318DF23003D5300F3680C /* albumGorilla45.jpg */,
+				EF5318E023003D5300F3680C /* albumGorilla51.jpg */,
+				EF5318E123003D5300F3680C /* albumGorilla50.jpg */,
+				EF5318E223003D5300F3680C /* albumGorilla44.jpg */,
+				EF5318E323003D5300F3680C /* albumGorilla3.jpg */,
+				EF5318E423003D5300F3680C /* albumGorilla23.jpg */,
+				EF5318E523003D5300F3680C /* albumGorilla37.jpg */,
+				EF5318E623003D5300F3680C /* albumGorilla36.jpg */,
+				EF5318E723003D5300F3680C /* albumGorilla22.jpg */,
+				EF5318E823003D5300F3680C /* albumGorilla2.jpg */,
+				EF5318E923003D5300F3680C /* albumGorilla34.jpg */,
+				EF5318EA23003D5300F3680C /* albumGorilla20.jpg */,
+				EF5318EB23003D5300F3680C /* albumGorilla21.jpg */,
+				EF5318EC23003D5300F3680C /* albumGorilla35.jpg */,
+				EF5318ED23003D5300F3680C /* albumGorilla1.jpg */,
+				EF5318EE23003D5300F3680C /* albumGorilla5.jpg */,
+				EF5318EF23003D5300F3680C /* albumGorilla19.jpg */,
+				EF5318F023003D5300F3680C /* albumGorilla31.jpg */,
+				EF5318F123003D5300F3680C /* albumGorilla25.jpg */,
+				EF5318F223003D5300F3680C /* albumGorilla24.jpg */,
+				EF5318F323003D5300F3680C /* albumGorilla30.jpg */,
+				EF5318F423003D5300F3680C /* albumGorilla18.jpg */,
+				EF5318F523003D5300F3680C /* albumGorilla4.jpg */,
+				EF5318F623003D5300F3680C /* albumGorilla6.jpg */,
+				EF5318F723003D5300F3680C /* albumGorilla26.jpg */,
+				EF5318F823003D5300F3680C /* albumGorilla32.jpg */,
+				EF5318F923003D5300F3680C /* albumGorilla33.jpg */,
+				EF5318FA23003D5300F3680C /* albumGorilla27.jpg */,
+				EF5318FB23003D5300F3680C /* albumGorilla7.jpg */,
+				EF5318FC23003D5300F3680C /* albumGorilla16.jpg */,
+				EF5318FD23003D5300F3680C /* albumGorilla17.jpg */,
+				EF5318FE23003D5300F3680C /* albumGorilla9.jpg */,
+				EF5318FF23003D5300F3680C /* albumGorilla15.jpg */,
+				EF53190023003D5300F3680C /* albumGorilla29.jpg */,
+				EF53190123003D5300F3680C /* albumGorilla28.jpg */,
+				EF53190223003D5300F3680C /* albumGorilla14.jpg */,
+				EF53190323003D5300F3680C /* albumGorilla8.jpg */,
+				EF53190423003D5300F3680C /* albumGorilla38.jpg */,
+				EF53190523003D5300F3680C /* albumGorilla10.jpg */,
+				EF53190623003D5300F3680C /* albumGorilla11.jpg */,
+				EF53190723003D5300F3680C /* albumGorilla39.jpg */,
+				EF53190823003D5300F3680C /* albumGorilla13.jpg */,
+				EF53190923003D5300F3680C /* albumGorilla12.jpg */,
+				EF53190A23003D5300F3680C /* albumGorilla61.jpg */,
+				EF53190B23003D5300F3680C /* albumGorilla75.jpg */,
+				EF53190C23003D5300F3680C /* albumGorilla49.jpg */,
+				EF53190D23003D5300F3680C /* albumGorilla48.jpg */,
+				EF53190E23003D5300F3680C /* albumGorilla74.jpg */,
+				EF53190F23003D5300F3680C /* albumGorilla60.jpg */,
+				EF53191023003D5300F3680C /* albumGorilla62.jpg */,
+				EF53191123003D5300F3680C /* albumGorilla63.jpg */,
+				EF53191223003D5300F3680C /* albumGorilla73.jpg */,
+				EF53191323003D5300F3680C /* albumGorilla67.jpg */,
+				EF53191423003D5300F3680C /* albumGorilla66.jpg */,
+				EF53191523003D5300F3680C /* albumGorilla72.jpg */,
+				EF53191623003D5300F3680C /* albumGorilla58.jpg */,
+				EF53191723003D5300F3680C /* albumGorilla64.jpg */,
+				EF53191823003D5300F3680C /* albumGorilla70.jpg */,
+				EF53191923003D5300F3680C /* albumGorilla71.jpg */,
+				EF53191A23003D5300F3680C /* albumGorilla65.jpg */,
+				EF53191B23003D5300F3680C /* albumGorilla59.jpg */,
+			);
+			path = AlbumGORILLAImgeas;
+			sourceTree = "<group>";
+		};
+		EF53191C23003D5300F3680C /* InstaGorilla */ = {
+			isa = PBXGroup;
+			children = (
+				EF53191D23003D5300F3680C /* シャバーニインスタ.jpg */,
+				EF53191E23003D5300F3680C /* IMG_2529.jpg */,
+				EF53191F23003D5300F3680C /* IMG_2528.jpg */,
+				EF53192023003D5300F3680C /* IMG_2523.jpg */,
+				EF53192123003D5300F3680C /* syoImage.jpg */,
+				EF53192223003D5300F3680C /* IMG_23961.jpg */,
+				EF53192323003D5300F3680C /* IMG_2530.jpg */,
+				EF53192423003D5300F3680C /* IMG_2526.jpg */,
+			);
+			path = InstaGorilla;
+			sourceTree = "<group>";
+		};
+		EF53192523003D5300F3680C /* randomGorillaImages */ = {
+			isa = PBXGroup;
+			children = (
+				EF53192623003D5300F3680C /* ゴリラ5.jpeg */,
+				EF53192723003D5300F3680C /* GorillaStomach.jpg */,
+				EF53192823003D5300F3680C /* warpaint-press-knockout-dribble.jpg */,
+				EF53192923003D5300F3680C /* ゴリラ9.jpeg */,
+				EF53192A23003D5300F3680C /* イケメンゴリラ写真集.jpg */,
+				EF53192B23003D5300F3680C /* apes.jpg */,
+				EF53192C23003D5300F3680C /* ゴリラ8.jpeg */,
+				EF53192D23003D5300F3680C /* ape2.png */,
+				EF53192E23003D5300F3680C /* ゴリラ4.jpeg */,
+				EF53192F23003D5300F3680C /* xingxing400300.jpg */,
+				EF53193023003D5300F3680C /* donkey_kong-01.png */,
+				EF53193123003D5300F3680C /* GentleGorilla.jpg */,
+				EF53193223003D5300F3680C /* ゴリラ3.jpeg */,
+				EF53193323003D5300F3680C /* errol.png */,
+				EF53193423003D5300F3680C /* ゴリラ11.jpeg */,
+				EF53193523003D5300F3680C /* textme-17.png */,
+				EF53193623003D5300F3680C /* gorilla.jpg */,
+				EF53193723003D5300F3680C /* ゴリラ10.jpeg */,
+				EF53193823003D5300F3680C /* ゴリラを見る俺.jpg */,
+				EF53193923003D5300F3680C /* gorillove_dribbble_1x.png */,
+				EF53193A23003D5400F3680C /* phonerillaz.jpg */,
+				EF53193B23003D5400F3680C /* ゴリラ2.jpeg */,
+				EF53193C23003D5400F3680C /* ゴリラスタンプ.jpeg */,
+				EF53193D23003D5400F3680C /* 上野動物園のゴリラ.jpeg */,
+				EF53193E23003D5400F3680C /* gorilla-1.jpg */,
+				EF53193F23003D5400F3680C /* gorilla-lowpoly_dribbble.png */,
+				EF53194023003D5400F3680C /* gorilla-1.png */,
+				EF53194123003D5400F3680C /* gorilla_dr.png */,
+				EF53194223003D5400F3680C /* ゴリラAppアイコン用.jpeg */,
+				EF53194323003D5400F3680C /* greyscalgorilla.jpg */,
+				EF53194423003D5400F3680C /* Knucklewalking.jpeg */,
+				EF53194523003D5400F3680C /* ゴリラ1.jpeg */,
+				EF53194623003D5400F3680C /* ________.png */,
+				EF53194723003D5400F3680C /* ゴリラの寝姿.jpg */,
+				EF53194823003D5400F3680C /* GORILLA3.png */,
+				EF53194923003D5400F3680C /* ゴリラ7.jpeg */,
+				EF53194A23003D5400F3680C /* GORILLA2.png */,
+				EF53194B23003D5400F3680C /* 切り取りcuteGorilola.png */,
+				EF53194C23003D5400F3680C /* GORILLA1.png */,
+				EF53194D23003D5400F3680C /* gorilla-dribble.jpg */,
+				EF53194E23003D5400F3680C /* GORILLAImage.jpg */,
+				EF53194F23003D5400F3680C /* GORILLA5.png */,
+				EF53195023003D5400F3680C /* GORILLA4.jpg */,
+				EF53195123003D5400F3680C /* images.png */,
+				EF53195223003D5400F3680C /* GentleGorillaAppLabel.png */,
+				EF53195323003D5400F3680C /* GORILLA6.png */,
+				EF53195423003D5400F3680C /* ゴリラ6.jpeg */,
+				EF53195523003D5400F3680C /* GorillaLogic.jpg */,
+				EF53195623003D5400F3680C /* bad_monkey.jpg */,
+				EF53195723003D5400F3680C /* GORILLA7.jpg */,
+			);
+			path = randomGorillaImages;
+			sourceTree = "<group>";
+		};
+		EF53195823003D5400F3680C /* gorillaTypeImages */ = {
+			isa = PBXGroup;
+			children = (
+				EF53195923003D5400F3680C /* MountainGorilla.jpeg */,
+				EF53195A23003D5400F3680C /* HigashiRolandGorilla.jpeg */,
+				EF53195B23003D5400F3680C /* NishiRolandGorilla.jpeg */,
+			);
+			path = gorillaTypeImages;
+			sourceTree = "<group>";
+		};
+		EF53195C23003D5400F3680C /* cuteGorillaImages */ = {
+			isa = PBXGroup;
+			children = (
+				EF53195D23003D5400F3680C /* AppIcon.appiconset */,
+				EF53197423003D5400F3680C /* iTunesArtwork@2x.png */,
+			);
+			path = cuteGorillaImages;
+			sourceTree = "<group>";
+		};
+		EF53195D23003D5400F3680C /* AppIcon.appiconset */ = {
+			isa = PBXGroup;
+			children = (
+				EF53195E23003D5400F3680C /* Icon-App-57x57@1x.png */,
+				EF53195F23003D5400F3680C /* Icon-App-76x76@2x.png */,
+				EF53196023003D5400F3680C /* Icon-App-29x29@1x.png */,
+				EF53196123003D5400F3680C /* Icon-App-60x60@1x.png */,
+				EF53196223003D5400F3680C /* Icon-Small-50x50@2x.png */,
+				EF53196323003D5400F3680C /* Icon-App-40x40@1x.png */,
+				EF53196423003D5400F3680C /* Icon-App-76x76@3x.png */,
+				EF53196523003D5400F3680C /* Icon-App-72x72@1x.png */,
+				EF53196623003D5400F3680C /* Icon-App-20x20@1x.png */,
+				EF53196723003D5400F3680C /* Icon-App-83.5x83.5@2x.png */,
+				EF53196823003D5400F3680C /* Icon-App-20x20@3x.png */,
+				EF53196923003D5400F3680C /* Icon-App-20x20@2x.png */,
+				EF53196A23003D5400F3680C /* Icon-App-29x29@3x.png */,
+				EF53196B23003D5400F3680C /* Icon-App-40x40@2x.png */,
+				EF53196C23003D5400F3680C /* Icon-App-72x72@2x.png */,
+				EF53196D23003D5400F3680C /* Icon-App-60x60@3x.png */,
+				EF53196E23003D5400F3680C /* Icon-Small-50x50@1x.png */,
+				EF53196F23003D5400F3680C /* Icon-App-60x60@2x.png */,
+				EF53197023003D5400F3680C /* Icon-App-57x57@2x.png */,
+				EF53197123003D5400F3680C /* Icon-App-76x76@1x.png */,
+				EF53197223003D5400F3680C /* Icon-App-40x40@3x.png */,
+				EF53197323003D5400F3680C /* Icon-App-29x29@2x.png */,
+			);
+			path = AppIcon.appiconset;
+			sourceTree = "<group>";
+		};
+		EF53197623003D5400F3680C /* NewsContents */ = {
+			isa = PBXGroup;
+			children = (
+				EF53197723003D5400F3680C /* stop.png */,
+				EF53197823003D5400F3680C /* チューリップゴリラ.png */,
+				EF53197923003D5400F3680C /* bang.png */,
+				EF53197A23003D5400F3680C /* 赤ちゃんゴリラ.jpg */,
+				EF53197B23003D5400F3680C /* babyGorilla.jpg */,
+				EF53197C23003D5400F3680C /* gorillahand.jpg */,
+				EF53197D23003D5400F3680C /* cancel.jpg */,
+				EF53197E23003D5400F3680C /* 水浴びゴリラ.png */,
+				EF53197F23003D5400F3680C /* dangerGorilla.jpg */,
+				EF53198023003D5400F3680C /* quarrel.jpg */,
+				EF53198123003D5400F3680C /* Handstand.jpg */,
+				EF53198223003D5400F3680C /* ゴリラに襲われる.jpg */,
+				EF53198323003D5400F3680C /* gorillabro.png */,
+				EF53198423003D5400F3680C /* hamadaGorilla.jpg */,
+				EF53198523003D5400F3680C /* drumming.jpg */,
+				EF53198623003D5400F3680C /* ゴリラアイコン1.jpeg */,
+				EF53198723003D5400F3680C /* ゴリラアイコン2.jpeg */,
+				EF53198823003D5400F3680C /* walkingGorilla.jpg */,
+				EF53198923003D5400F3680C /* グラブルゴリラ.jpg */,
+				EF53198A23003D5400F3680C /* angry.jpg */,
+				EF53198B23003D5400F3680C /* go.png */,
+				EF53198C23003D5400F3680C /* modoru.png */,
+				EF53198D23003D5400F3680C /* NEWSのイラスト素材.jpeg */,
+				EF53198E23003D5400F3680C /* susumu.png */,
+				EF53198F23003D5400F3680C /* infoButton.png */,
+				EF53199023003D5400F3680C /* wild.jpg */,
+				EF53199123003D5400F3680C /* booger.jpg */,
+				EF53199223003D5400F3680C /* gorilla2.jpg */,
+				EF53199323003D5400F3680C /* toilet.jpg */,
+				EF53199423003D5400F3680C /* backtoPage.png */,
+				EF53199523003D5400F3680C /* placeholderImage.jpg */,
+				EF53199623003D5400F3680C /* back.png */,
+				EF53199723003D5400F3680C /* start.png */,
+			);
+			path = NewsContents;
+			sourceTree = "<group>";
+		};
+		EF531AB523003E0800F3680C /* Quiz */ = {
+			isa = PBXGroup;
+			children = (
+				EF53188523003D5300F3680C /* batsu.png */,
+				EF53186B23003D5300F3680C /* maru.png */,
+				EF53197523003D5400F3680C /* Congratulations-Pic.png */,
+			);
+			path = Quiz;
+			sourceTree = "<group>";
+		};
+		EF531AB623003EA300F3680C /* Banana */ = {
+			isa = PBXGroup;
+			children = (
+				EF53187423003D5300F3680C /* bananaButton.png */,
+				EF53187123003D5300F3680C /* banana1.jpg */,
+				EF53187223003D5300F3680C /* banana2.jpg */,
+			);
+			path = Banana;
+			sourceTree = "<group>";
+		};
+		EF531ABA23003F4000F3680C /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				EF531ABB23003F4000F3680C /* DotsLoader.swift */,
+				EF531ABC23003F4000F3680C /* CustomButton.swift */,
+				EF531ABD23003F4000F3680C /* CAPSPageMenu.swift */,
+				EF531ABE23003F4000F3680C /* SweetAlert.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		EF531AC323003F8500F3680C /* QuizFile */ = {
+			isa = PBXGroup;
+			children = (
+				EF531AC423003F8500F3680C /* ViewController.swift */,
+				EF531AC523003F8500F3680C /* QuizTestViewController.swift */,
+				EF531AC623003F8500F3680C /* QuizHomeViewController.swift */,
+				EF531AC723003F8500F3680C /* Quiz.swift */,
+			);
+			path = QuizFile;
+			sourceTree = "<group>";
+		};
+		EF531ACC23003F9200F3680C /* KnowledgeFile */ = {
+			isa = PBXGroup;
+			children = (
+				EF531ACD23003F9200F3680C /* DetailAlbumViewController.swift */,
+				EF531ACE23003F9200F3680C /* AlbumViewController.swift */,
+				EF531ACF23003F9200F3680C /* MamechishikiButton.swift */,
+			);
+			path = KnowledgeFile;
+			sourceTree = "<group>";
+		};
+		EF531AD323003F9C00F3680C /* Gorilla MapFile */ = {
+			isa = PBXGroup;
+			children = (
+				EF531AD423003F9C00F3680C /* Hamamatsu */,
+				EF531AD723003F9C00F3680C /* Chiba */,
+				EF531ADB23003F9C00F3680C /* MonkeyCenter */,
+				EF531ADF23003F9C00F3680C /* Sendai */,
+				EF531AE723003F9C00F3680C /* Kyoto */,
+				EF531AEC23003F9C00F3680C /* Ueno */,
+				EF531AEF23003F9C00F3680C /* Higashiyama */,
+				EF531ADE23003F9C00F3680C /* GorillaMapViewController.swift */,
+				EF531AE223003F9C00F3680C /* DetailSmartGorillaViewController.swift */,
+				EF531AE323003F9C00F3680C /* SmartGorillaTableViewCell.xib */,
+				EF531AE423003F9C00F3680C /* SmartGorillaViewController.swift */,
+				EF531AE523003F9C00F3680C /* Left.storyboard */,
+				EF531AE623003F9C00F3680C /* SmartGorillaTableViewCell.swift */,
+				EF531AEE23003F9C00F3680C /* JapanMapViewController.swift */,
+			);
+			path = "Gorilla MapFile";
+			sourceTree = "<group>";
+		};
+		EF531AD423003F9C00F3680C /* Hamamatsu */ = {
+			isa = PBXGroup;
+			children = (
+				EF531AD523003F9C00F3680C /* SyoViewController.swift */,
+				EF531AD623003F9C00F3680C /* HamamatsuViewController.swift */,
+			);
+			path = Hamamatsu;
+			sourceTree = "<group>";
+		};
+		EF531AD723003F9C00F3680C /* Chiba */ = {
+			isa = PBXGroup;
+			children = (
+				EF531AD823003F9C00F3680C /* MontaViewController.swift */,
+				EF531AD923003F9C00F3680C /* RolaViewController.swift */,
+				EF531ADA23003F9C00F3680C /* ChibaViewController.swift */,
+			);
+			path = Chiba;
+			sourceTree = "<group>";
+		};
+		EF531ADB23003F9C00F3680C /* MonkeyCenter */ = {
+			isa = PBXGroup;
+			children = (
+				EF531ADC23003F9C00F3680C /* MonkeyCenterViewController.swift */,
+				EF531ADD23003F9C00F3680C /* TaroViewController.swift */,
+			);
+			path = MonkeyCenter;
+			sourceTree = "<group>";
+		};
+		EF531ADF23003F9C00F3680C /* Sendai */ = {
+			isa = PBXGroup;
+			children = (
+				EF531AE023003F9C00F3680C /* SendaiViewController.swift */,
+				EF531AE123003F9C00F3680C /* DonViewController.swift */,
+			);
+			path = Sendai;
+			sourceTree = "<group>";
+		};
+		EF531AE723003F9C00F3680C /* Kyoto */ = {
+			isa = PBXGroup;
+			children = (
+				EF531AE823003F9C00F3680C /* KyotoViewController.swift */,
+				EF531AE923003F9C00F3680C /* GentaroViewController.swift */,
+				EF531AEA23003F9C00F3680C /* MomotaroViewController.swift */,
+				EF531AEB23003F9C00F3680C /* GenkiViewController.swift */,
+			);
+			path = Kyoto;
+			sourceTree = "<group>";
+		};
+		EF531AEC23003F9C00F3680C /* Ueno */ = {
+			isa = PBXGroup;
+			children = (
+				EF531AED23003F9C00F3680C /* UenoViewController.swift */,
+			);
+			path = Ueno;
+			sourceTree = "<group>";
+		};
+		EF531AEF23003F9C00F3680C /* Higashiyama */ = {
+			isa = PBXGroup;
+			children = (
+				EF531AF023003F9C00F3680C /* AniViewController.swift */,
+				EF531AF123003F9C00F3680C /* HigashiyamaViewController.swift */,
+				EF531AF223003F9C00F3680C /* SyabaniViewController.swift */,
+				EF531AF323003F9C00F3680C /* AiViewController.swift */,
+				EF531AF423003F9C00F3680C /* KiyomasaViewController.swift */,
+				EF531AF523003F9C00F3680C /* NeneViewController.swift */,
+			);
+			path = Higashiyama;
+			sourceTree = "<group>";
+		};
+		EF531B1123003FA300F3680C /* GorillaListFile */ = {
+			isa = PBXGroup;
+			children = (
+				EF531B1223003FA300F3680C /* GorillaListTableViewCell.xib */,
+				EF531B1323003FA300F3680C /* GorillaListViewController.swift */,
+				EF531B1423003FA300F3680C /* DetailGorillaListViewController.swift */,
+				EF531B1523003FA300F3680C /* GorillaListTableViewCell.swift */,
+				EF531B1623003FA300F3680C /* GorillaDetailImageViewController.swift */,
+			);
+			path = GorillaListFile;
+			sourceTree = "<group>";
+		};
+		EF531B1C23003FAC00F3680C /* GorillaNewsFile */ = {
+			isa = PBXGroup;
+			children = (
+				EF531B1D23003FAC00F3680C /* PagingViewController.swift */,
+				EF531B1E23003FAC00F3680C /* NewsViewController.swift */,
+				EF531B1F23003FAC00F3680C /* BiglobeNewsViewController.swift */,
+				EF531B2023003FAC00F3680C /* MyGorillaNewsViewController.swift */,
+				EF531B2123003FAC00F3680C /* GorillaMovieViewController.swift */,
+			);
+			path = GorillaNewsFile;
+			sourceTree = "<group>";
+		};
+		EF531B2723003FC400F3680C /* FrontFile */ = {
+			isa = PBXGroup;
+			children = (
+				EF531B2823003FC400F3680C /* FrontViewController.swift */,
+				EF531B2923003FC400F3680C /* EnterGorillaViewController.swift */,
+				EF531B2A23003FC400F3680C /* TabBarController.swift */,
+			);
+			path = FrontFile;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -74,9 +1491,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = EF53160623003A5B00F3680C /* Build configuration list for PBXNativeTarget "GorillaGorillaGorilla" */;
 			buildPhases = (
+				FE4292229B701DFC62EC28A5 /* [CP] Check Pods Manifest.lock */,
 				EF5315ED23003A5900F3680C /* Sources */,
 				EF5315EE23003A5900F3680C /* Frameworks */,
 				EF5315EF23003A5900F3680C /* Resources */,
+				D42BBDA10BE8B32832CFAF13 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -125,22 +1544,407 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EF5319E923003D5400F3680C /* ムサシ.jpg in Resources */,
+				EF531A4723003D5400F3680C /* ゴリラ5.jpeg in Resources */,
+				EF5319FD23003D5400F3680C /* albumGorilla56.jpg in Resources */,
+				EF5319BB23003D5400F3680C /* japanMonkeyCenterImage.jpeg in Resources */,
+				EF5319E023003D5400F3680C /* ペイントトト.jpg in Resources */,
+				EF531A3823003D5400F3680C /* albumGorilla72.jpg in Resources */,
+				EF531A7723003D5400F3680C /* bad_monkey.jpg in Resources */,
+				EF531AAB23003D5400F3680C /* susumu.png in Resources */,
+				EF531A9923003D5400F3680C /* gorillahand.jpg in Resources */,
+				EF531A3323003D5400F3680C /* albumGorilla62.jpg in Resources */,
+				EF5319AB23003D5400F3680C /* backgroundImage3.jpg in Resources */,
+				EF531A5423003D5400F3680C /* errol.png in Resources */,
+				EF5319FC23003D5400F3680C /* albumGorilla42.jpg in Resources */,
+				EF5319E423003D5400F3680C /* モモカ.jpg in Resources */,
+				EF5319B223003D5400F3680C /* nagaiyuki.png in Resources */,
+				EF531AB023003D5400F3680C /* toilet.jpg in Resources */,
+				EF5319CE23003D5400F3680C /* whiteGorilla.jpeg in Resources */,
+				EF5319BA23003D5400F3680C /* hamamatsuZooImage.jpeg in Resources */,
 				EF53160223003A5B00F3680C /* LaunchScreen.storyboard in Resources */,
+				EF531A9323003D5400F3680C /* Congratulations-Pic.png in Resources */,
+				EF531A5E23003D5400F3680C /* 上野動物園のゴリラ.jpeg in Resources */,
+				EF5319A523003D5400F3680C /* back.jpg in Resources */,
+				EF531AA323003D5400F3680C /* ゴリラアイコン1.jpeg in Resources */,
+				EF5319E523003D5400F3680C /* ゲンキ.jpg in Resources */,
+				EF5319B323003D5400F3680C /* placeholder.png in Resources */,
 				EF5315FF23003A5B00F3680C /* Assets.xcassets in Resources */,
+				EF5319DF23003D5400F3680C /* ペイントピーコ.jpg in Resources */,
+				EF531A9F23003D5400F3680C /* ゴリラに襲われる.jpg in Resources */,
+				EF531A3523003D5400F3680C /* albumGorilla73.jpg in Resources */,
+				EF531A9523003D5400F3680C /* チューリップゴリラ.png in Resources */,
+				EF5319BF23003D5400F3680C /* hightlightList.png in Resources */,
+				EF531AAA23003D5400F3680C /* NEWSのイラスト素材.jpeg in Resources */,
+				EF531A7E23003D5400F3680C /* Icon-App-29x29@1x.png in Resources */,
+				EF531A9A23003D5400F3680C /* cancel.jpg in Resources */,
+				EF531A9C23003D5400F3680C /* dangerGorilla.jpg in Resources */,
+				EF531A2123003D5400F3680C /* albumGorilla9.jpg in Resources */,
+				EF531AB223003D5400F3680C /* placeholderImage.jpg in Resources */,
+				EF5319CB23003D5400F3680C /* tabKnowledge.png in Resources */,
+				EF5319E123003D5400F3680C /* ペイントモモコ.jpg in Resources */,
+				EF531A7F23003D5400F3680C /* Icon-App-60x60@1x.png in Resources */,
+				EF531A8223003D5400F3680C /* Icon-App-76x76@3x.png in Resources */,
+				EF531A9623003D5400F3680C /* bang.png in Resources */,
+				EF531A0523003D5400F3680C /* albumGorilla44.jpg in Resources */,
+				EF531AB823003EE600F3680C /* ZinHenaBokuryu-RCF.otf in Resources */,
+				EF53199923003D5400F3680C /* maru.png in Resources */,
+				EF531AA723003D5400F3680C /* angry.jpg in Resources */,
+				EF5319A123003D5400F3680C /* bananaButton.png in Resources */,
+				EF5319A223003D5400F3680C /* go.jpg in Resources */,
+				EF531A7B23003D5400F3680C /* NishiRolandGorilla.jpeg in Resources */,
+				EF531A6C23003D5400F3680C /* 切り取りcuteGorilola.png in Resources */,
+				EF53186823003D2900F3680C /* なきむしポルカFREE.otf in Resources */,
+				EF531A5D23003D5400F3680C /* ゴリラスタンプ.jpeg in Resources */,
+				EF5319B823003D5400F3680C /* yagiyamaZooImage.jpeg in Resources */,
+				EF5319CF23003D5400F3680C /* gorilla-dribbble.gif in Resources */,
+				EF531A6B23003D5400F3680C /* GORILLA2.png in Resources */,
+				EF531A5523003D5400F3680C /* ゴリラ11.jpeg in Resources */,
+				EF531A7C23003D5400F3680C /* Icon-App-57x57@1x.png in Resources */,
+				EF531A4423003D5400F3680C /* IMG_23961.jpg in Resources */,
+				EF5319E623003D5400F3680C /* ネネ.jpg in Resources */,
+				EF5319DB23003D5400F3680C /* ペイントコモモ.jpg in Resources */,
+				EF5319BE23003D5400F3680C /* news.png in Resources */,
+				EF5319F123003D5400F3680C /* キヨマサ.jpg in Resources */,
+				EF531AAE23003D5400F3680C /* booger.jpg in Resources */,
+				EF5319FF23003D5400F3680C /* albumGorilla46.jpg in Resources */,
+				EF531A1423003D5400F3680C /* albumGorilla25.jpg in Resources */,
+				EF5319ED23003D5400F3680C /* モモコ.jpg in Resources */,
+				EF531A2523003D5400F3680C /* albumGorilla14.jpg in Resources */,
+				EF531A0723003D5400F3680C /* albumGorilla23.jpg in Resources */,
+				EF531A8923003D5400F3680C /* Icon-App-40x40@2x.png in Resources */,
+				EF531A7023003D5400F3680C /* GORILLA5.png in Resources */,
+				EF531A1823003D5400F3680C /* albumGorilla4.jpg in Resources */,
+				EF531B0123003F9C00F3680C /* SmartGorillaTableViewCell.xib in Resources */,
+				EF531A6723003D5400F3680C /* ________.png in Resources */,
+				EF531A4B23003D5400F3680C /* イケメンゴリラ写真集.jpg in Resources */,
+				EF531A0A23003D5400F3680C /* albumGorilla22.jpg in Resources */,
+				EF5319B523003D5400F3680C /* placeholderImage.png in Resources */,
+				EF531A6123003D5400F3680C /* gorilla-1.png in Resources */,
+				EF531A4D23003D5400F3680C /* ゴリラ8.jpeg in Resources */,
+				EF531A6423003D5400F3680C /* greyscalgorilla.jpg in Resources */,
+				EF531A5223003D5400F3680C /* GentleGorilla.jpg in Resources */,
+				EF531A7523003D5400F3680C /* ゴリラ6.jpeg in Resources */,
+				EF531A0F23003D5400F3680C /* albumGorilla35.jpg in Resources */,
+				EF5319C623003D5400F3680C /* hightlightNews.png in Resources */,
+				EF531A0323003D5400F3680C /* albumGorilla51.jpg in Resources */,
+				EF531A6D23003D5400F3680C /* GORILLA1.png in Resources */,
+				EF531A1B23003D5400F3680C /* albumGorilla32.jpg in Resources */,
+				EF53199F23003D5400F3680C /* banana2.jpg in Resources */,
+				EF5319E323003D5400F3680C /* ピンドン.jpg in Resources */,
+				EF531A0223003D5400F3680C /* albumGorilla45.jpg in Resources */,
+				EF531A8B23003D5400F3680C /* Icon-App-60x60@3x.png in Resources */,
+				EF531A7623003D5400F3680C /* GorillaLogic.jpg in Resources */,
+				EF5319D523003D5400F3680C /* アイ.jpg in Resources */,
+				EF531A8523003D5400F3680C /* Icon-App-83.5x83.5@2x.png in Resources */,
+				EF5319C923003D5400F3680C /* hightlightMap.png in Resources */,
+				EF531A8723003D5400F3680C /* Icon-App-20x20@2x.png in Resources */,
+				EF531A9723003D5400F3680C /* 赤ちゃんゴリラ.jpg in Resources */,
+				EF531A2223003D5400F3680C /* albumGorilla15.jpg in Resources */,
+				EF531A4523003D5400F3680C /* IMG_2530.jpg in Resources */,
+				EF5319C823003D5400F3680C /* hightlightQuiz.png in Resources */,
+				EF531A8C23003D5400F3680C /* Icon-Small-50x50@1x.png in Resources */,
+				EF531A0B23003D5400F3680C /* albumGorilla2.jpg in Resources */,
+				EF531A5C23003D5400F3680C /* ゴリラ2.jpeg in Resources */,
+				EF531A2023003D5400F3680C /* albumGorilla17.jpg in Resources */,
+				EF531A7223003D5400F3680C /* images.png in Resources */,
+				EF531A1023003D5400F3680C /* albumGorilla1.jpg in Resources */,
+				EF531A6023003D5400F3680C /* gorilla-lowpoly_dribbble.png in Resources */,
+				EF531A6F23003D5400F3680C /* GORILLAImage.jpg in Resources */,
+				EF5319F323003D5400F3680C /* トト.jpg in Resources */,
+				EF531A4023003D5400F3680C /* IMG_2529.jpg in Resources */,
+				EF531AA123003D5400F3680C /* hamadaGorilla.jpg in Resources */,
+				EF531A4123003D5400F3680C /* IMG_2528.jpg in Resources */,
+				EF531A2323003D5400F3680C /* albumGorilla29.jpg in Resources */,
+				EF5319C323003D5400F3680C /* tabMemo.png in Resources */,
+				EF5319F723003D5400F3680C /* albumGorilla69.jpg in Resources */,
+				EF5319CD23003D5400F3680C /* whiteGorilla.jpg in Resources */,
+				EF531A7323003D5400F3680C /* GentleGorillaAppLabel.png in Resources */,
+				EF531A7123003D5400F3680C /* GORILLA4.jpg in Resources */,
+				EF5319E223003D5400F3680C /* ペイントリキ.jpg in Resources */,
+				EF531A0623003D5400F3680C /* albumGorilla3.jpg in Resources */,
+				EF531AB423003D5400F3680C /* start.png in Resources */,
+				EF531A3123003D5400F3680C /* albumGorilla74.jpg in Resources */,
+				EF531A6823003D5400F3680C /* ゴリラの寝姿.jpg in Resources */,
+				EF531A9223003D5400F3680C /* iTunesArtwork@2x.png in Resources */,
+				EF531AB123003D5400F3680C /* backtoPage.png in Resources */,
+				EF531A4823003D5400F3680C /* GorillaStomach.jpg in Resources */,
+				EF531A3E23003D5400F3680C /* albumGorilla59.jpg in Resources */,
+				EF5319D323003D5400F3680C /* 1_gorila_dribbble.gif in Resources */,
+				EF531A2A23003D5400F3680C /* albumGorilla39.jpg in Resources */,
+				EF5319D823003D5400F3680C /* アニー.jpg in Resources */,
+				EF5319B723003D5400F3680C /* higasiyamaZooImage.jpeg in Resources */,
+				EF531B1723003FA300F3680C /* GorillaListTableViewCell.xib in Resources */,
+				EF531A6A23003D5400F3680C /* ゴリラ7.jpeg in Resources */,
+				EF531A8123003D5400F3680C /* Icon-App-40x40@1x.png in Resources */,
+				EF531A3223003D5400F3680C /* albumGorilla60.jpg in Resources */,
+				EF5319B023003D5400F3680C /* backgroundImage7.jpg in Resources */,
+				EF531A5F23003D5400F3680C /* gorilla-1.jpg in Resources */,
+				EF5319AE23003D5400F3680C /* backgroundImage5.jpg in Resources */,
+				EF5319DC23003D5400F3680C /* ペイントモモカ.jpg in Resources */,
+				EF531A3F23003D5400F3680C /* シャバーニインスタ.jpg in Resources */,
+				EF531A1623003D5400F3680C /* albumGorilla30.jpg in Resources */,
+				EF531A5023003D5400F3680C /* xingxing400300.jpg in Resources */,
+				EF5319D723003D5400F3680C /* ナナ.jpg in Resources */,
+				EF5319C123003D5400F3680C /* tabQuiz.png in Resources */,
+				EF531A1323003D5400F3680C /* albumGorilla31.jpg in Resources */,
+				EF5319EE23003D5400F3680C /* シャバーニ.jpg in Resources */,
+				EF5319F923003D5400F3680C /* albumGorilla41.jpg in Resources */,
+				EF531A5A23003D5400F3680C /* gorillove_dribbble_1x.png in Resources */,
+				EF531A1123003D5400F3680C /* albumGorilla5.jpg in Resources */,
+				EF531A6E23003D5400F3680C /* gorilla-dribble.jpg in Resources */,
+				EF5319C523003D5400F3680C /* hightlightknowledge.png in Resources */,
+				EF531A8323003D5400F3680C /* Icon-App-72x72@1x.png in Resources */,
+				EF5319BD23003D5400F3680C /* sideMenu.gif in Resources */,
+				EF5319DA23003D5400F3680C /* タロウ.jpg in Resources */,
+				EF531A8A23003D5400F3680C /* Icon-App-72x72@2x.png in Resources */,
+				EF531A9B23003D5400F3680C /* 水浴びゴリラ.png in Resources */,
+				EF531A0C23003D5400F3680C /* albumGorilla34.jpg in Resources */,
+				EF531A5923003D5400F3680C /* ゴリラを見る俺.jpg in Resources */,
+				EF531A6923003D5400F3680C /* GORILLA3.png in Resources */,
+				EF531A7D23003D5400F3680C /* Icon-App-76x76@2x.png in Resources */,
+				EF5319B423003D5400F3680C /* LoginViewImage.png in Resources */,
+				EF5319EF23003D5400F3680C /* ショウ.jpg in Resources */,
+				EF5319B123003D5400F3680C /* batsu.png in Resources */,
+				EF531A1F23003D5400F3680C /* albumGorilla16.jpg in Resources */,
+				EF5319C223003D5400F3680C /* Map.png in Resources */,
+				EF531A4C23003D5400F3680C /* apes.jpg in Resources */,
+				EF531A6223003D5400F3680C /* gorilla_dr.png in Resources */,
+				EF531B0323003F9C00F3680C /* Left.storyboard in Resources */,
+				EF5319FA23003D5400F3680C /* albumGorilla57.jpg in Resources */,
+				EF5319A023003D5400F3680C /* cancel.jpeg in Resources */,
+				EF531A3623003D5400F3680C /* albumGorilla67.jpg in Resources */,
+				EF531A0023003D5400F3680C /* albumGorilla47.jpg in Resources */,
+				EF531A2423003D5400F3680C /* albumGorilla28.jpg in Resources */,
+				EF5319DD23003D5400F3680C /* ペイントハオコ.jpg in Resources */,
+				EF5319D023003D5400F3680C /* dribbblegorillagif3.gif in Resources */,
+				EF531A7823003D5400F3680C /* GORILLA7.jpg in Resources */,
+				EF531A8D23003D5400F3680C /* Icon-App-60x60@2x.png in Resources */,
+				EF531A3423003D5400F3680C /* albumGorilla63.jpg in Resources */,
+				EF531A1723003D5400F3680C /* albumGorilla18.jpg in Resources */,
+				EF531A0423003D5400F3680C /* albumGorilla50.jpg in Resources */,
+				EF531A0D23003D5400F3680C /* albumGorilla20.jpg in Resources */,
+				EF5319B923003D5400F3680C /* kyotoZooImage.jpeg in Resources */,
+				EF531A2E23003D5400F3680C /* albumGorilla75.jpg in Resources */,
+				EF531AAC23003D5400F3680C /* infoButton.png in Resources */,
+				EF531A8623003D5400F3680C /* Icon-App-20x20@3x.png in Resources */,
+				EF5319D223003D5400F3680C /* dribbblegorillagif1.gif in Resources */,
+				EF5319EA23003D5400F3680C /* ドン.jpg in Resources */,
+				EF531A0123003D5400F3680C /* albumGorilla53.jpg in Resources */,
+				EF531A4A23003D5400F3680C /* ゴリラ9.jpeg in Resources */,
+				EF531A1C23003D5400F3680C /* albumGorilla33.jpg in Resources */,
+				EF5319C423003D5400F3680C /* tabMap.png in Resources */,
+				EF531AAD23003D5400F3680C /* wild.jpg in Resources */,
+				EF531A2B23003D5400F3680C /* albumGorilla13.jpg in Resources */,
+				EF531A1A23003D5400F3680C /* albumGorilla26.jpg in Resources */,
+				EF531A4623003D5400F3680C /* IMG_2526.jpg in Resources */,
+				EF531A3A23003D5400F3680C /* albumGorilla64.jpg in Resources */,
+				EF531A8823003D5400F3680C /* Icon-App-29x29@3x.png in Resources */,
+				EF531A5623003D5400F3680C /* textme-17.png in Resources */,
+				EF531A2923003D5400F3680C /* albumGorilla11.jpg in Resources */,
+				EF5319F023003D5400F3680C /* モンタ.jpg in Resources */,
+				EF531A9023003D5400F3680C /* Icon-App-40x40@3x.png in Resources */,
+				EF531A4323003D5400F3680C /* syoImage.jpg in Resources */,
+				EF531A1223003D5400F3680C /* albumGorilla19.jpg in Resources */,
+				EF531A1D23003D5400F3680C /* albumGorilla27.jpg in Resources */,
+				EF531A7423003D5400F3680C /* GORILLA6.png in Resources */,
+				EF531A5823003D5400F3680C /* ゴリラ10.jpeg in Resources */,
+				EF53199E23003D5400F3680C /* banana1.jpg in Resources */,
+				EF531A2C23003D5400F3680C /* albumGorilla12.jpg in Resources */,
+				EF5319EB23003D5400F3680C /* ピーコ.jpg in Resources */,
+				EF5319FB23003D5400F3680C /* albumGorilla43.jpg in Resources */,
+				EF531AA023003D5400F3680C /* gorillabro.png in Resources */,
+				EF531A2723003D5400F3680C /* albumGorilla38.jpg in Resources */,
+				EF531A3023003D5400F3680C /* albumGorilla48.jpg in Resources */,
+				EF531A8F23003D5400F3680C /* Icon-App-76x76@1x.png in Resources */,
+				EF5319F623003D5400F3680C /* albumGorilla68.jpg in Resources */,
+				EF531A0823003D5400F3680C /* albumGorilla37.jpg in Resources */,
+				EF5319AF23003D5400F3680C /* backgroundImage6.jpg in Resources */,
+				EF5319DE23003D5400F3680C /* ペイントナナ.jpg in Resources */,
+				EF531A7A23003D5400F3680C /* HigashiRolandGorilla.jpeg in Resources */,
+				EF5319F223003D5400F3680C /* モモタロウ.jpg in Resources */,
+				EF531A9D23003D5400F3680C /* quarrel.jpg in Resources */,
+				EF531A0E23003D5400F3680C /* albumGorilla21.jpg in Resources */,
+				EF531A2623003D5400F3680C /* albumGorilla8.jpg in Resources */,
+				EF5319CA23003D5400F3680C /* tabList.png in Resources */,
+				EF5319D623003D5400F3680C /* ケンタ.jpg in Resources */,
+				EF531AAF23003D5400F3680C /* gorilla2.jpg in Resources */,
+				EF531A9E23003D5400F3680C /* Handstand.jpg in Resources */,
+				EF531A5323003D5400F3680C /* ゴリラ3.jpeg in Resources */,
+				EF5319E823003D5400F3680C /* ローラ.jpg in Resources */,
+				EF531AA523003D5400F3680C /* walkingGorilla.jpg in Resources */,
+				EF531A7923003D5400F3680C /* MountainGorilla.jpeg in Resources */,
+				EF531A5723003D5400F3680C /* gorilla.jpg in Resources */,
+				EF531A5123003D5400F3680C /* donkey_kong-01.png in Resources */,
+				EF531A4223003D5400F3680C /* IMG_2523.jpg in Resources */,
+				EF531AB323003D5400F3680C /* back.png in Resources */,
+				EF531AA923003D5400F3680C /* modoru.png in Resources */,
+				EF531A9123003D5400F3680C /* Icon-App-29x29@2x.png in Resources */,
+				EF5319D423003D5400F3680C /* ゲンタロウ.jpg in Resources */,
+				EF531A3723003D5400F3680C /* albumGorilla66.jpg in Resources */,
+				EF531A2823003D5400F3680C /* albumGorilla10.jpg in Resources */,
+				EF531A5B23003D5400F3680C /* phonerillaz.jpg in Resources */,
+				EF531A1E23003D5400F3680C /* albumGorilla7.jpg in Resources */,
+				EF531A8E23003D5400F3680C /* Icon-App-57x57@2x.png in Resources */,
+				EF531A4F23003D5400F3680C /* ゴリラ4.jpeg in Resources */,
+				EF531A6323003D5400F3680C /* ゴリラAppアイコン用.jpeg in Resources */,
+				EF531AA423003D5400F3680C /* ゴリラアイコン2.jpeg in Resources */,
+				EF5319E723003D5400F3680C /* コモモ.jpg in Resources */,
+				EF531A2D23003D5400F3680C /* albumGorilla61.jpg in Resources */,
 				EF5315FA23003A5A00F3680C /* Main.storyboard in Resources */,
+				EF531A4E23003D5400F3680C /* ape2.png in Resources */,
+				EF531A0923003D5400F3680C /* albumGorilla36.jpg in Resources */,
+				EF5319EC23003D5400F3680C /* リキ.jpg in Resources */,
+				EF5319BC23003D5400F3680C /* uenoZooImage.jpg in Resources */,
+				EF531A6523003D5400F3680C /* Knucklewalking.jpeg in Resources */,
+				EF531A3B23003D5400F3680C /* albumGorilla70.jpg in Resources */,
+				EF5319F423003D5400F3680C /* albumGorilla40.jpg in Resources */,
+				EF531A3D23003D5400F3680C /* albumGorilla65.jpg in Resources */,
+				EF531A3923003D5400F3680C /* albumGorilla58.jpg in Resources */,
+				EF531AA623003D5400F3680C /* グラブルゴリラ.jpg in Resources */,
+				EF531A1523003D5400F3680C /* albumGorilla24.jpg in Resources */,
+				EF5319C723003D5400F3680C /* list.png in Resources */,
+				EF5319CC23003D5400F3680C /* Quiz.png in Resources */,
+				EF531A3C23003D5400F3680C /* albumGorilla71.jpg in Resources */,
+				EF5319F823003D5400F3680C /* albumGorilla55.jpg in Resources */,
+				EF5319D923003D5400F3680C /* ハオコ.jpg in Resources */,
+				EF5319D123003D5400F3680C /* dribbblegorillagif2.gif in Resources */,
+				EF531A1923003D5400F3680C /* albumGorilla6.jpg in Resources */,
+				EF5319FE23003D5400F3680C /* albumGorilla52.jpg in Resources */,
+				EF5319AA23003D5400F3680C /* backgroundImage2.jpg in Resources */,
+				EF5319C023003D5400F3680C /* knowledge.png in Resources */,
+				EF531A9823003D5400F3680C /* babyGorilla.jpg in Resources */,
+				EF5319AC23003D5400F3680C /* backgroundImage4.jpg in Resources */,
+				EF531A8023003D5400F3680C /* Icon-Small-50x50@2x.png in Resources */,
+				EF531A6623003D5400F3680C /* ゴリラ1.jpeg in Resources */,
+				EF5319A923003D5400F3680C /* backgroundImage1.jpg in Resources */,
+				EF531A4923003D5400F3680C /* warpaint-press-knockout-dribble.jpg in Resources */,
+				EF5319B623003D5400F3680C /* chibashiZooImage.jpeg in Resources */,
+				EF5319F523003D5400F3680C /* albumGorilla54.jpg in Resources */,
+				EF531A2F23003D5400F3680C /* albumGorilla49.jpg in Resources */,
+				EF531AA823003D5400F3680C /* go.png in Resources */,
+				EF531A8423003D5400F3680C /* Icon-App-20x20@1x.png in Resources */,
+				EF531AA223003D5400F3680C /* drumming.jpg in Resources */,
+				EF531A9423003D5400F3680C /* stop.png in Resources */,
+				EF5319AD23003D5400F3680C /* JapanMapImage.jpg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		D42BBDA10BE8B32832CFAF13 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-GorillaGorillaGorilla/Pods-GorillaGorillaGorilla-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Kingfisher/Kingfisher.framework",
+				"${BUILT_PRODUCTS_DIR}/NYXImagesKit/NYXImagesKit.framework",
+				"${BUILT_PRODUCTS_DIR}/RAMAnimatedTabBarController/RAMAnimatedTabBarController.framework",
+				"${BUILT_PRODUCTS_DIR}/SDWebImage/SDWebImage.framework",
+				"${BUILT_PRODUCTS_DIR}/SVProgressHUD/SVProgressHUD.framework",
+				"${BUILT_PRODUCTS_DIR}/SnapKit/SnapKit.framework",
+				"${BUILT_PRODUCTS_DIR}/SwiftyGif/SwiftyGif.framework",
+				"${BUILT_PRODUCTS_DIR}/UITextView+Placeholder/UITextView_Placeholder.framework",
+				"${BUILT_PRODUCTS_DIR}/WBSegmentControl/WBSegmentControl.framework",
+				"${BUILT_PRODUCTS_DIR}/youtube-ios-player-helper/youtube_ios_player_helper.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Kingfisher.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/NYXImagesKit.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RAMAnimatedTabBarController.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SDWebImage.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SVProgressHUD.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SnapKit.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SwiftyGif.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/UITextView_Placeholder.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/WBSegmentControl.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/youtube_ios_player_helper.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-GorillaGorillaGorilla/Pods-GorillaGorillaGorilla-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		FE4292229B701DFC62EC28A5 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-GorillaGorillaGorilla-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		EF5315ED23003A5900F3680C /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EF531B0E23003F9C00F3680C /* AiViewController.swift in Sources */,
+				EF531B0723003F9C00F3680C /* MomotaroViewController.swift in Sources */,
+				EF531B2223003FAC00F3680C /* PagingViewController.swift in Sources */,
+				EF531B0623003F9C00F3680C /* GentaroViewController.swift in Sources */,
+				EF531B0823003F9C00F3680C /* GenkiViewController.swift in Sources */,
+				EF531AFA23003F9C00F3680C /* ChibaViewController.swift in Sources */,
+				EF531B2D23003FC400F3680C /* TabBarController.swift in Sources */,
+				EF531B2523003FAC00F3680C /* MyGorillaNewsViewController.swift in Sources */,
+				EF531B0523003F9C00F3680C /* KyotoViewController.swift in Sources */,
+				EF531B2623003FAC00F3680C /* GorillaMovieViewController.swift in Sources */,
+				EF531ABF23003F4000F3680C /* DotsLoader.swift in Sources */,
+				EF531AD023003F9200F3680C /* DetailAlbumViewController.swift in Sources */,
+				EF531AF923003F9C00F3680C /* RolaViewController.swift in Sources */,
+				EF531AD123003F9200F3680C /* AlbumViewController.swift in Sources */,
+				EF531B0F23003F9C00F3680C /* KiyomasaViewController.swift in Sources */,
+				EF531B0923003F9C00F3680C /* UenoViewController.swift in Sources */,
 				EF5315FD23003A5A00F3680C /* GorillaGorillaGorilla.xcdatamodeld in Sources */,
+				EF531AC123003F4000F3680C /* CAPSPageMenu.swift in Sources */,
 				EF5315F723003A5A00F3680C /* ViewController.swift in Sources */,
+				EF531B1823003FA300F3680C /* GorillaListViewController.swift in Sources */,
+				EF531B1A23003FA300F3680C /* GorillaListTableViewCell.swift in Sources */,
+				EF531ACA23003F8500F3680C /* QuizHomeViewController.swift in Sources */,
 				EF5315F523003A5900F3680C /* AppDelegate.swift in Sources */,
+				EF531AFD23003F9C00F3680C /* GorillaMapViewController.swift in Sources */,
+				EF531B2B23003FC400F3680C /* FrontViewController.swift in Sources */,
+				EF531B0D23003F9C00F3680C /* SyabaniViewController.swift in Sources */,
+				EF531AFC23003F9C00F3680C /* TaroViewController.swift in Sources */,
+				EF531AF723003F9C00F3680C /* HamamatsuViewController.swift in Sources */,
+				EF531B1023003F9C00F3680C /* NeneViewController.swift in Sources */,
+				EF531B0423003F9C00F3680C /* SmartGorillaTableViewCell.swift in Sources */,
+				EF531AC223003F4000F3680C /* SweetAlert.swift in Sources */,
+				EF531B0223003F9C00F3680C /* SmartGorillaViewController.swift in Sources */,
+				EF531B2423003FAC00F3680C /* BiglobeNewsViewController.swift in Sources */,
+				EF531B0B23003F9C00F3680C /* AniViewController.swift in Sources */,
+				EF531ACB23003F8500F3680C /* Quiz.swift in Sources */,
+				EF531AF623003F9C00F3680C /* SyoViewController.swift in Sources */,
+				EF531B0A23003F9C00F3680C /* JapanMapViewController.swift in Sources */,
+				EF531B0023003F9C00F3680C /* DetailSmartGorillaViewController.swift in Sources */,
+				EF531B2323003FAC00F3680C /* NewsViewController.swift in Sources */,
+				EF531AC923003F8500F3680C /* QuizTestViewController.swift in Sources */,
+				EF531AC823003F8500F3680C /* ViewController.swift in Sources */,
+				EF531B2C23003FC400F3680C /* EnterGorillaViewController.swift in Sources */,
+				EF531AFF23003F9C00F3680C /* DonViewController.swift in Sources */,
+				EF531AFB23003F9C00F3680C /* MonkeyCenterViewController.swift in Sources */,
+				EF531B1B23003FA300F3680C /* GorillaDetailImageViewController.swift in Sources */,
+				EF531AFE23003F9C00F3680C /* SendaiViewController.swift in Sources */,
+				EF531B0C23003F9C00F3680C /* HigashiyamaViewController.swift in Sources */,
+				EF531AF823003F9C00F3680C /* MontaViewController.swift in Sources */,
+				EF531AC023003F4000F3680C /* CustomButton.swift in Sources */,
+				EF531AD223003F9200F3680C /* MamechishikiButton.swift in Sources */,
+				EF531B1923003FA300F3680C /* DetailGorillaListViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -284,6 +2088,7 @@
 		};
 		EF53160723003A5B00F3680C /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 051B6CF094CA270C14585580 /* Pods-GorillaGorillaGorilla.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -302,6 +2107,7 @@
 		};
 		EF53160823003A5B00F3680C /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6A26FE2C0242D6B6A398BB08 /* Pods-GorillaGorillaGorilla.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
