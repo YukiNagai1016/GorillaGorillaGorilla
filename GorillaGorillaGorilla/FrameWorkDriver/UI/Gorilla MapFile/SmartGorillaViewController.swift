@@ -96,7 +96,7 @@ class SmartGorillaViewController: UIViewController , UITableViewDelegate , UITab
         //バーアイテムカラー
         self.navigationController?.navigationBar.tintColor = UIColor.yellow
         //ナビゲーションタイトル文字列の変更
-        self.navigationController?.navigationBar.titleTextAttributes = [NSAttributedStringKey.foregroundColor : UIColor.yellow]
+        self.navigationController?.navigationBar.titleTextAttributes = [NSAttributedString.Key.foregroundColor : UIColor.yellow]
         
         // ナビゲーションバーの曇りガラス効果オフ
         //self.navigationController!.navigationBar.isTranslucent = false

@@ -49,12 +49,12 @@ class TabBarController: UITabBarController {
         fiveViewController.tabBarItem = UITabBarItem(title: "News", image: News, selectedImage: hightlightNews)
         
         //特定のキーを指定した辞書型を用意
-        let normalAttributes: Dictionary! = [NSAttributedStringKey.foregroundColor: black]
-        let selectedAttributes: Dictionary! = [NSAttributedStringKey.foregroundColor: white]
+        let normalAttributes: Dictionary! = [NSAttributedString.Key.foregroundColor: black]
+        let selectedAttributes: Dictionary! = [NSAttributedString.Key.foregroundColor: white]
         
         //Tab Bar Itemのタイトルカラーを設定
-        UITabBarItem.appearance().setTitleTextAttributes(normalAttributes, for: UIControlState.normal)
-        UITabBarItem.appearance().setTitleTextAttributes(selectedAttributes, for: UIControlState.selected)
+        UITabBarItem.appearance().setTitleTextAttributes(normalAttributes, for: UIControl.State.normal)
+        UITabBarItem.appearance().setTitleTextAttributes(selectedAttributes, for: UIControl.State.selected)
     }
     
     
@@ -65,7 +65,7 @@ class TabBarController: UITabBarController {
     
     func makeOriginalImage(name: String) -> UIImage {
         let image = UIImage(named: name)!
-        let originalImage = image.withRenderingMode(UIImageRenderingMode.alwaysOriginal)
+        let originalImage = image.withRenderingMode(.alwaysOriginal)
         return originalImage
     }
     

@@ -164,7 +164,7 @@ class DetailSmartGorillaViewController: UIViewController {
         let button = UIButton()
         button.frame = CGRect(x: x, y: 20, width: 75, height: 75)
         button.addTarget(self, action: action, for: .touchUpInside)
-        button.setBackgroundImage(selectedImageName, for: UIControlState.normal)
+        button.setBackgroundImage(selectedImageName, for: UIControl.State.normal)
         button.clipsToBounds = true
         button.layer.cornerRadius = 3.0
         return button

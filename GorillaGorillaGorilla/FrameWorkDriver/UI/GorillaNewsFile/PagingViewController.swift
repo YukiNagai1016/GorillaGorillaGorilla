@@ -26,8 +26,8 @@ class PagingViewController: UIViewController {
         self.navigationController!.navigationBar.barTintColor = UIColor.black
         self.title = "Gorilla News"
         self.navigationController!.navigationBar.titleTextAttributes =
-            [NSAttributedStringKey.foregroundColor: UIColor.yellow,
-             NSAttributedStringKey.font: UIFont(name: "Helvetica-Bold", size: 17)!]
+            [NSAttributedString.Key.foregroundColor: UIColor.yellow,
+             NSAttributedString.Key.font: UIFont(name: "Helvetica-Bold", size: 17)!]
         
         initSegmentControl()
         initPagesController()
@@ -118,7 +118,7 @@ class PagingViewController: UIViewController {
 extension PagingViewController: WBSegmentControlDelegate {
     func segmentControl(_ segmentControl: WBSegmentControl, selectIndex newIndex: Int, oldIndex: Int) {
         let targetPages = [pages[newIndex]]
-        let direction = ((newIndex > oldIndex) ? UIPageViewControllerNavigationDirection.forward : UIPageViewControllerNavigationDirection.reverse)
+        let direction = ((newIndex > oldIndex) ? UIPageViewController.NavigationDirection.forward : UIPageViewController.NavigationDirection.reverse)
         pagesController.setViewControllers(targetPages, direction: direction, animated: true, completion: nil)
         
         if let selectedSegment = segmentControl.selectedSegment as? TextSegment {

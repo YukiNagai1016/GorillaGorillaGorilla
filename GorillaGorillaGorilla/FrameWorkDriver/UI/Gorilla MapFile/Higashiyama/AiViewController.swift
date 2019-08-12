@@ -150,7 +150,7 @@ class AiViewController: UIViewController {
         let button = UIButton()
         button.frame = CGRect(x: x, y: 20, width: 75, height: 75)
         button.addTarget(self, action: action, for: .touchUpInside)
-        button.setBackgroundImage(gorillaImages[12], for: UIControlState.normal)
+        button.setBackgroundImage(gorillaImages[12], for: UIControl.State.normal)
         button.clipsToBounds = true
         button.layer.cornerRadius = 3.0
         return button

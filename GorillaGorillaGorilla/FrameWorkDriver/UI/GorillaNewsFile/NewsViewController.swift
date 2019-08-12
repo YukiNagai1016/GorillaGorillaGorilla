@@ -8,25 +8,17 @@
 
 import UIKit
 import SDWebImage
+import WebKit
 
 class NewsViewController: UIViewController ,UITableViewDelegate,UITableViewDataSource,UIWebViewDelegate,XMLParserDelegate {
 
     var urlArray = [String]()
-    
-    var tableView:UITableView = UITableView()
-    
-    var refreshControl:UIRefreshControl!
-    
-    var webView:UIWebView = UIWebView()
-    
-    var goButton:UIButton!
-    
-    var backButton:UIButton!
-    
-    var cancelButton:UIButton!
-    
-    var dotsView:DotsLoader! = DotsLoader()
-    
+    var tableView: UITableView = UITableView()
+    var refreshControl: UIRefreshControl!
+    var webView: UIWebView = UIWebView()
+    var goButton: UIButton!
+    var backButton: UIButton!
+    var cancelButton: UIButton!
     var parser = XMLParser()
     var totalBox = NSMutableArray()
     var elements = NSMutableDictionary()
@@ -37,23 +29,19 @@ class NewsViewController: UIViewController ,UITableViewDelegate,UITableViewDataS
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        
-        //背景画像をつくる
+
         let imageView = UIImageView()
         imageView.frame = self.view.bounds
         imageView.image = UIImage(named: "albumGorilla13.jpg")
         imageView.alpha = 0.7
-        imageView.contentMode = UIViewContentMode.scaleAspectFill
+        imageView.contentMode = UIView.ContentMode.scaleAspectFill
         imageView.clipsToBounds = true
         self.view.addSubview(imageView)
-        
-        //引っ張って更新
+
         refreshControl = UIRefreshControl()
         refreshControl.tintColor = UIColor.white
-        refreshControl.addTarget(self, action: #selector(refresh), for: UIControlEvents.valueChanged)
+        refreshControl.addTarget(self, action: #selector(refresh), for: UIControl.Event.valueChanged)
         
-        
-        //tableViewを作成する
         tableView.delegate = self
         tableView.dataSource = self
         tableView.frame = CGRect(x: 0, y: 0, width: self.view.frame.size.width, height: self.view.frame.size.height - 54.0)
@@ -61,7 +49,6 @@ class NewsViewController: UIViewController ,UITableViewDelegate,UITableViewDataS
         tableView.addSubview(refreshControl)
         self.view.addSubview(tableView)
         
-        //webView
         webView.frame = tableView.frame
         webView.delegate = self
         webView.scalesPageToFit = true
@@ -69,43 +56,28 @@ class NewsViewController: UIViewController ,UITableViewDelegate,UITableViewDataS
         self.view.addSubview(webView)
         webView.isHidden = true
         
-        //1つ進むボタン
         goButton = UIButton()
         goButton.frame = CGRect(x: self.view.frame.size.width - 50, y:self.view.frame.size.height - 128 , width: 50, height: 50)
         goButton.setImage(UIImage(named:"go.png"), for: .normal)
         goButton.addTarget(self, action: #selector(nextPage), for: .touchUpInside)
         self.view.addSubview(goButton)
         
-        //戻るボタン
         backButton = UIButton()
         backButton.frame = CGRect(x: 10, y:self.view.frame.size.height - 128, width: 50, height: 50)
         backButton.setImage(UIImage(named:"back.png"), for: .normal)
         backButton.addTarget(self, action: #selector(backPage), for: .touchUpInside)
         self.view.addSubview(backButton)
         
-        //キャンセルボタン
         cancelButton = UIButton()
         cancelButton.frame = CGRect(x: 10, y:80, width: 50, height: 50)
         cancelButton.setImage(UIImage(named:"cancel.jpg"), for: .normal)
         cancelButton.addTarget(self, action: #selector(cancel), for: .touchUpInside)
         self.view.addSubview(cancelButton)
         
-        
         goButton.isHidden = true
         backButton.isHidden = true
         cancelButton.isHidden = true
         
-        
-        //ドッツビュー
-        dotsView.frame = CGRect(x: 0, y: self.view.frame.size.height/3, width: self.view.frame.size.width, height: 100)
-        dotsView.dotsCount = 5
-        dotsView.dotsRadius = 10
-        self.view.addSubview(dotsView)
-        
-        dotsView.isHidden = true
-        
-        
-        //xmlを解析する(パース)
         let url:String = "https://www.cnet.com/rss/all/"
         let urlToSend:URL = URL(string:url)!
         parser = XMLParser(contentsOf:urlToSend)!
@@ -113,20 +85,13 @@ class NewsViewController: UIViewController ,UITableViewDelegate,UITableViewDataS
         parser.delegate = self
         parser.parse()
         tableView.reloadData()
-        
-        
-        // Do any additional setup after loading the view.
     }
     
     @objc func refresh(){
-        
         perform(#selector(delay), with: nil, afterDelay: 2.0)
-        
     }
     
     @objc func delay(){
-        
-        //xmlを解析する(パース)
         let url:String = "https://www.cnet.com/rss/all/"
         let urlToSend:URL = URL(string:url)!
         parser = XMLParser(contentsOf:urlToSend)!
@@ -137,37 +102,29 @@ class NewsViewController: UIViewController ,UITableViewDelegate,UITableViewDataS
         refreshControl.endRefreshing()
         // biglobeNews
         //https://news.biglobe.ne.jp/list/011/088/%E3%82%B4%E3%83%AA%E3%83%A9.html
-        
     }
     
     //webViewを1ページ進める
     @objc func nextPage(){
-        
         webView.goForward()
     }
     
     //webViewを1ページ戻す
     @objc func backPage(){
-        
         webView.goBack()
-        
     }
     
     //webViewを隠す
     @objc func cancel(){
-        
         webView.isHidden = true
         goButton.isHidden = true
         backButton.isHidden = true
         cancelButton.isHidden = true
-        
     }
     
     
     func tableView(_ tableView: UITableView, heightForRowAt indexPath: IndexPath) -> CGFloat {
-        
         return 100
-        
     }
     
     
@@ -180,18 +137,13 @@ class NewsViewController: UIViewController ,UITableViewDelegate,UITableViewDataS
     }
     
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
-        
         let cell = UITableViewCell(style: .subtitle, reuseIdentifier: "Cell")
-        
-        
+    
         cell.selectionStyle = .none
         cell.backgroundColor = UIColor.clear
         cell.textLabel?.text = (totalBox[indexPath.row] as AnyObject).value(forKey: "title") as? String
         cell.textLabel?.font = UIFont.boldSystemFont(ofSize: 15.0)
         cell.textLabel?.textColor = UIColor.white
-        
-        
-        
         cell.detailTextLabel?.text = (totalBox[indexPath.row] as AnyObject).value(forKey: "link") as? String
         cell.detailTextLabel?.font = UIFont.boldSystemFont(ofSize: 9.0)
         cell.detailTextLabel?.textColor = UIColor.white
@@ -200,13 +152,9 @@ class NewsViewController: UIViewController ,UITableViewDelegate,UITableViewDataS
         let url:URL = URL(string:urlStr)!
         
         cell.imageView?.sd_setImage(with: url,placeholderImage: UIImage(named:"placeholderImage.jpg"))
-        
-        
+    
         return cell
-        
     }
-    
-    
     
     func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
         

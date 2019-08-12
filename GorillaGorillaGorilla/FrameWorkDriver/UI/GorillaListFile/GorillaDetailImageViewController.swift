@@ -8,17 +8,7 @@
 
 import UIKit
 
-extension UIColor {
-    static func color(_ red: Int, green: Int, blue: Int, alpha: Float) -> UIColor {
-        return UIColor(
-            red: 1.0 / 255.0 * CGFloat(red),
-            green: 1.0 / 255.0 * CGFloat(green),
-            blue: 1.0 / 255.0 * CGFloat(blue),
-            alpha: CGFloat(alpha))
-    }
-}
-
-class GorillaDetailImageViewController: UIViewController, CircleMenuDelegate {
+class GorillaDetailImageViewController: UIViewController {
     
     @IBOutlet var gorillaImageView: UIImageView!
     
@@ -41,24 +31,5 @@ class GorillaDetailImageViewController: UIViewController, CircleMenuDelegate {
     }
     
     
-    
-    // MARK: <CircleMenuDelegate>
-    func circleMenu(_: CircleMenu, willDisplay button: UIButton, atIndex: Int) {
-        button.backgroundColor = items[atIndex].color
-        
-        button.setImage(UIImage(named: items[atIndex].icon), for: .normal)
-        
-        // set highlited image
-        let highlightedImage = UIImage(named: items[atIndex].icon)?.withRenderingMode(.alwaysTemplate)
-        button.setImage(highlightedImage, for: .highlighted)
-        button.tintColor = UIColor(red: 0, green: 0, blue: 0, alpha: 0.3)
-    }
-    
-    func circleMenu(_: CircleMenu, buttonWillSelected _: UIButton, atIndex: Int) {
-        print("button will selected: \(atIndex)")
-    }
-    
-    func circleMenu(_: CircleMenu, buttonDidSelected _: UIButton, atIndex: Int) {
-        print("button did selected: \(atIndex)")
-    }
+   
 }
